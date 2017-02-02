@@ -1,0 +1,188 @@
+/* Move down content because we have a fixed navbar that is 50px tall */
+
+body {
+	padding-top: 80px;
+	padding-bottom: 20px;
+}
+
+.nobr {
+	white-space: nowrap;
+}
+
+/* VELO HERO Logo */
+
+.logo {
+	font-family: Tahoma, Verdana, sans-serif;
+	font-weight: bold;
+	text-transform: uppercase;
+}
+.logo-spaceing {
+	letter-spacing: 2px;
+}
+
+
+.table-checkbox {
+	width: 20px;
+}
+
+
+/* Totals */
+
+.table-totals > tbody > tr {
+	border-top: 1px solid rgb(221, 221, 221);
+}
+
+.table-totals > tbody > tr:first-child {
+	border-top: 0;
+}
+
+
+.table-totals > tbody > tr > td {
+	border-top: 0;
+}
+
+
+/* Widget */
+
+.hero-widget {
+	text-align: center;
+}
+
+.hero-widget .icon {
+	display: block;
+	font-size: 48px;
+	line-height: 48px;
+	margin-bottom: 10px;
+	text-align: center;
+}
+
+.hero-widget strong {
+	display: block;
+	height: 24px;
+	font-size: 24px;
+	line-height: 24px;
+	font-style: normal;
+	font-weight: bold;
+}
+
+.hero-widget label {
+	font-size: 14px;
+}
+
+
+/* Workout Widget */
+
+.hero-widget .options {
+	margin-top: 10px;
+}
+
+.workout-widget {
+	text-align: center;
+}
+
+.workout-widget .icon {
+	display: block;
+	font-size: 32px;
+	line-height: 32px;
+	margin-bottom: 10px;
+	text-align: center;
+}
+
+.workout-widget strong {
+	display: block;
+	height: 18px;
+	font-size: 18px;
+	line-height: 18px;
+	font-style: normal;
+	font-weight: bold;
+}
+
+.workout-widget label {
+	font-size: 12px;
+}
+
+
+/* Calendar Widget */
+
+.calendar-widget .icon {
+	font-size: 48px;
+	line-height: 48px;
+	margin-top: 10px;
+	margin-bottom: 10px;
+}
+
+.calendar-widget .nobr {
+	margin-right: .5em;
+
+}
+
+
+/* User List */
+
+.user-row {
+	margin-bottom: 14px;
+}
+
+.user-row:last-child {
+	margin-bottom: 0;
+}
+
+.dropdown-user {
+	margin: 13px 0;
+	padding: 5px;
+	height: 100%;
+}
+
+.dropdown-user:hover {
+	cursor: pointer;
+}
+
+.table-user-information > tbody > tr {
+	border-top: 1px solid rgb(221, 221, 221);
+}
+
+.table-user-information > tbody > tr:first-child {
+	border-top: 0;
+}
+
+.table-user-information > tbody > tr > td {
+	border-top: 0;
+}
+
+
+/* Table */
+
+.table-icon {
+	width: 20px;
+}
+
+
+/* Back to top */
+
+.back-to-top {
+	cursor: pointer;
+	position: fixed;
+	bottom: 20px;
+	right: 20px;
+	display:none;
+}
+
+
+/* Pro */
+
+.the-price h1 {
+	line-height: 1em;
+	padding: 0;
+	margin: 0;
+}
+
+.subscript {
+	font-size: 25px;
+}
+
+
+/* Calendar */
+
+.fc-time {
+	display : none;
+}

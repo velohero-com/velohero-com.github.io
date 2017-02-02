@@ -1,0 +1,84 @@
+.logo {
+	font-family: Tahoma, Verdana, sans-serif;
+	font-weight: bold;
+	text-transform: uppercase;
+}
+.logo-spaceing {
+	letter-spacing: 2px;
+}
+
+#frontpage-jumbotron {
+	background: #4B4848;
+	overflow: hidden;
+	background-size: cover;
+	background-image: url("../images/frontpage_bg.jpg");
+	background-position: center 16%;
+	height: 650px;
+	padding-top: 150px;
+}
+h1.frontpage-jumbotron-text {
+	line-height: 52px;
+	text-align: left;
+	font-size: 37px;
+	text-transform: uppercase;
+	font-weight: bold;
+	letter-spacing: .3px;
+	color: #fff;
+	text-shadow: 2px 2px 2px rgba(0, 0, 0, 1);
+}
+.frontpage-jumbotron-sub-text {
+	width: 50%;
+	margin-top: 25px;
+	color: #fff;
+	font-size: 18px;
+	font-weight: bold;
+	line-height: 28px;
+	text-shadow: 2px 2px 2px rgba(0, 0, 0, 1);
+}
+.frontpage-jumbotron-buttons {
+	margin-top: 60px;
+}
+.frontpage-jumbotron-buttons > a {
+	margin-right: 20px;
+	padding: 15px 31px;
+}
+
+#frontpage-lang {
+	padding: 20px;
+	font-weight: bold;
+}
+
+@media (max-width: 991px) {
+	#frontpage-jumbotron {
+		padding-top: 100px;
+	}
+}
+@media (max-width: 767px) {
+	h1.frontpage-jumbotron-text {
+		font-size: 25px;
+		line-height: 38px;
+		margin-top: 0;
+		text-align: center;
+	}
+	.frontpage-jumbotron-sub-text {
+		font-size: 15px;
+		width: 100%;
+		text-align: center;
+	}
+	.frontpage-jumbotron-buttons {
+		text-align: center;
+	}
+	.frontpage-jumbotron-buttons > a {
+		font-size: 14px;
+		padding: 12px 25px;
+		margin: 0px 15px 15px 0px;
+	}
+}
+
+.istock {
+	position: absolute;
+	top: 620px;
+	right: 10px;
+	width: 200px;
+	text-align:right;
+}

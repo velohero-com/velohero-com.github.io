@@ -1,0 +1,273 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="HandheldFriendly" content="True">
+	<meta name="MobileOptimized" content="320">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<meta name="apple-mobile-web-app-status-bar-style" content="black">
+	<meta name="apple-mobile-web-app-title" content="Velo Hero">
+	<meta name="apple-mobile-web-app-capable" content="no">
+	
+	<title>Training Log and Performance Analysis Software - Velo Hero</title>
+	
+	<link href="/static/favicon.ico?v=0.6.2" rel="shortcut icon">
+	<link href="/static/touchicon.png?v=0.6.2" rel="apple-touch-icon">
+	<link href="/static/icon_192px.png?v=0.6.2" rel="icon" sizes="192x192">
+	
+	<link href="//cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/3.3.6/css/bootstrap.min.css" rel="stylesheet">
+	<link href="/static/css/frontpage.css?v=0.6.2" rel="stylesheet">
+	<link href="//cdnjs.cloudflare.com/ajax/libs/font-awesome/4.6.1/css/font-awesome.min.css" rel="stylesheet">
+	<link href="/static/font/velohero/style.css?v=0.6.2" rel="stylesheet">
+	
+	<script src="//cdnjs.cloudflare.com/ajax/libs/jquery/2.2.1/jquery.min.js"></script>
+	
+	<!--[if lt IE 9]>
+	<script src="//cdnjs.cloudflare.com/ajax/libs/html5shiv/3.6.2/html5shiv.js"></script>
+	<![endif]-->
+</head>
+<body>
+<div class="navbar navbar-inverse navbar-fixed-top" role="navigation"><div class="container">	<!-- Velo Hero logo -->
+	<div class="navbar-header">
+		<button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
+			<span class="sr-only">Toggle navigation</span>
+			<span class="icon-bar"></span>
+			<span class="icon-bar"></span>
+			<span class="icon-bar"></span>
+		</button>
+		<a class="navbar-brand logo" href="//www.velohero.com/">
+	Vel<span class="logo-spaceing">o</span><span class="logo-spaceing"><i class="fa vh-logo"></i></span>Hero
+</a>
+	</div>
+	<!-- Velo Hero logo -->
+	<div class="navbar-collapse collapse">		<ul class="nav navbar-nav navbar-right">
+			<li><a href="http://app.velohero.com/tour">Features</a></li>
+			<li><a href="http://app.velohero.com/register">Sign Up</a></li>
+			<li><a href="http://app.velohero.com/login"><i class="fa fa-sign-in"></i> Log In</a></li>
+			<li class="dropdown">
+				<a href="#" class="dropdown-toggle" data-toggle="dropdown"><i class="fa fa-globe"></i> Language <b class="caret"></b></a>
+				 <ul class="dropdown-menu">
+	<li><a href="//www.velohero.com/"><i class="fa fa-check-square-o fa-fw"></i> <img src="/static/images/icons/flags/gb.png" width="16" height="16" alt=""> English</a></li>
+	<li><a href="//www.velohero.com/es/diario-de-entrenamiento.html"><i class="fa fa-square-o fa-fw"></i> <img src="/static/images/icons/flags/es.png" width="16" height="16" alt=""> Español / Spanish</a></li>
+	<li><a href="//www.velohero.com/de/trainingstagebuch.html"><i class="fa fa-square-o fa-fw"></i> <img src="/static/images/icons/flags/de.png" width="16" height="16" alt=""> Deutsch / German</a></li>
+	<li><a href="//www.velohero.com/it/diario-di-allenamento.html"><i class="fa fa-square-o fa-fw"></i> <img src="/static/images/icons/flags/it.png" width="16" height="16" alt=""> Italiano / Italian</a></li>
+	<li><a href="//www.velohero.com/nl/trainingslogboek.html"><i class="fa fa-square-o fa-fw"></i> <img src="/static/images/icons/flags/nl.png" width="16" height="16" alt=""> Nederlands / Dutch</a></li>
+	<li><a href="//www.velohero.com/fr/journal-d-entrainement.html"><i class="fa fa-square-o fa-fw"></i> <img src="/static/images/icons/flags/fr.png" width="16" height="16" alt=""> Français / French</a></li>
+	<li><a href="//www.velohero.com/pt-br/software-de-registro-de-treinamento.html"><i class="fa fa-square-o fa-fw"></i> <img src="/static/images/icons/flags/br.png" width="16" height="16" alt=""> Português brasileiro / Brazilian Portuguese</a></li>
+	<li><a href="//www.velohero.com/pl/dziennika-treningowego.html"><i class="fa fa-square-o fa-fw"></i> <img src="/static/images/icons/flags/pl.png" width="16" height="16" alt=""> Polski / Polish</a></li>
+	<li><a href="//www.velohero.com/hu/edzesnaplo.html"><i class="fa fa-square-o fa-fw"></i> <img src="/static/images/icons/flags/hu.png" width="16" height="16" alt=""> Magyar / Hungarian</a></li>
+	<li><a href="//www.velohero.com/zh-cn/trainingdiary.html"><i class="fa fa-square-o fa-fw"></i> <img src="/static/images/icons/flags/cn.png" width="16" height="16" alt=""> 簡體字 / Simplified Chinese</a></li>
+</ul>
+			</li>
+		</ul>	</div> <!-- // navbar-collapse -->
+</div> <!-- // container -->
+</div> <!-- // navigation -->
+<div id="frontpage-jumbotron">
+	<div class="container">
+		<h1 class="frontpage-jumbotron-text">Log your workouts<br> and track your progress.</h1>
+		<p class="frontpage-jumbotron-sub-text">Velo Hero is a free and vendor independent training log and performance analysis software, that gives competitive cyclists the motivation and support to achieve their athletic goals. Runners and triathletes are welcome, too.</p>
+		<p class="frontpage-jumbotron-buttons">
+			<a class="btn btn-primary btn-lg" href="http://app.velohero.com/register" role="button">Sign Up for Free</a>
+			<a class="btn btn-default btn-lg" href="http://app.velohero.com/tour" role="button">Features</a>
+		</p>
+		<p class="text-muted istock"><script>document.write('&copy; iStock.com/pixdeluxe');</script></p>
+	</div>
+</div>
+
+<div id="frontpage-lang" class="bg-info hidden">
+	<div class="container">
+		<div id="frontpage-lang-text"></div>
+	</div>
+</div>
+
+<div class="container">
+
+<div class="page-header">
+	<h2>It's easy to keep a training log.</h2>
+</div>
+
+<div class="row">
+	<div class="col-md-4">
+		<h3 class="text-center">Record</h3>
+		<p class="visible-md visible-lg">
+			<img src="/static/images/frontpage_1.jpg?v=0.6.2" width="750" height="510" alt="" class="img-responsive img-rounded">
+		</p>
+		<p>Record your athletic activity - the more data (speed, heart rate, power etc.) the better. Recordings of many manufacturers such as Polar, Garmin and SRM are supported. Even apps like IpBike, Wahoo or Locus Maps can be used.</p>
+	</div>
+	<div class="col-md-4">
+		<h3 class="text-center">Upload</h3>
+		<p class="visible-md visible-lg">
+			<img src="/static/images/frontpage_2.jpg?v=0.6.2" width="750" height="510" alt="" class="img-responsive img-rounded">
+		</p>
+		<p>Upload your workout data via the website or by email. With tapiriik your training data from other platforms such as Garmin Connect, TrainingPeaks or RunKeeper can be synchronized.</p>
+	</div>
+	<div class="col-md-4">
+		<h3 class="text-center">Analyze & Share</h3>
+		<p class="visible-md visible-lg">
+			<img src="/static/images/frontpage_3.jpg?v=0.6.2" width="750" height="510" alt="" class="img-responsive img-rounded">
+		</p>
+		<p>Analyze and share individual activities or all workouts. Many important values are calculated and displayed. To name a few: Training impulse (TRIMP), intensity, stress and average ascent speed (VAM).</p>
+	</div>
+</div>
+
+<br>
+<div class="row">
+	<div class="col-sm-12">
+		<div class="well">
+			<blockquote>
+				<div class="row">
+					<div class="col-sm-2 text-center visible-md visible-lg">
+						<img src="/static/images/ich_300x300.jpg?v=0.6.2" width="300" height="300" alt="" class="img-responsive img-circle">
+					</div>
+					<div class="col-sm-10">
+						<p>The biggest difference to other platforms is that Velo Hero is a one-man project. I get no support from companies and also will not sell your data. Since no one else is involved in decisions I can implement new features quickly. I'm a cyclist and use my software every day.</p>
+						<footer>Nils Knieling, Founder of Velo Hero</footer>
+					</div>
+				</div>
+			</blockquote>
+		</div>
+	</div>
+</div>
+
+<br>
+<div class="row">
+	<div class="col-sm-12">
+		<p class="text-muted">You ride frequently and <b>cycling</b> is a part of your life? You may even have a power meter on your bike? If so, Velo Hero is just right for you. Velo Hero is a <b>free training diary</b> for cyclists, triathletes and runners. Additionally there is a paid Pro version with more features. The <b>training log</b> helps you record workouts and analyze your workout data. Log your rides, running and swimming. Import your training data from all major manufacturers such as Garmin, Polar, Schoberer Rad Messtechnik (SRM), daum electronic, SIGMA, Zwift, PeriPedal, GoldenCheetah, FALK, Timex, Mio and many more. Track your progress with this free <b>training diary</b>. The free training diary is easy to use and perfect for your workout. Learn from past experiences and maximize your potential as a cyclist. Train better for your goals on race day and not for virtual KOMs. Train more effectively with Velo Hero.</p>
+	</div>
+</div>
+<hr>
+<footer class="text-center text-muted">
+	<p>
+		<small>
+			<a href="http://app.velohero.com/help">Contact</a> |
+			<a href="https://www.facebook.com/velohero" target="_blank">Facebook</a> |
+			<a href="https://www.twitter.com/velohero" target="_blank">Twitter</a> |
+			<a href="https://plus.google.com/+VeloheroCom/posts" target="_blank">Google+</a> |
+			<a href="http://app.velohero.com/terms" target="_blank">Terms & Conditions</a> |
+			<a href="http://app.velohero.com/privacy" target="_blank">Privacy Policy</a> |
+			<a href="http://app.velohero.com/pro">Pro Membership</a> |
+			<a href="http://app.velohero.com/imprint">About this site</a>
+		</small>
+	</p>
+	<p>
+		<small><i class="fa vh-logo"></i> Velo Hero<sup>&reg;</sup> - &copy; 2017 Nils Knieling - All rights reserved</small>
+	</p>
+</footer>
+<!-- Cookie Consent -->
+<script>
+window.cookieconsent_options = {
+	theme: 'light-bottom',
+	message: "This site uses cookies to deliver its services, to personalize ads and to analyze traffic. Information about your use of this site is shared with Google. By using this site, you agree to its use of cookies.",
+	learnMore: "More info",
+	dismiss: "Got it!",
+	path: '/; domain=.velohero.com',
+	expiryDays: 730,
+	link: 'http://app.velohero.com/privacy'
+};
+</script>
+<script src="//cdnjs.cloudflare.com/ajax/libs/cookieconsent2/1.0.10/cookieconsent.min.js"></script>
+<!-- // Cookie Consent -->
+</div> <!-- // container -->
+
+<script src="//cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/3.3.6/js/bootstrap.min.js"></script>
+
+<script>
+	var userLang = navigator.language || navigator.userLanguage;
+			if ( userLang.match(/^es/) ) {
+		$('#frontpage-lang-text').html( '<img src="/static/images/icons/flags/es.png" width="16" height="16" alt=""> '+
+		'¿Habla usted español? <i>Do you speak Spanish?</i> Velo Hero también está disponible en español. '+
+		'<a href="//www.velohero.com/es/diario-de-entrenamiento.html">Cambiar idioma.</a>' );
+		$('#frontpage-lang').removeClass('hidden');
+	}	if ( userLang.match(/^de/) ) {
+		$('#frontpage-lang-text').html( '<img src="/static/images/icons/flags/de.png" width="16" height="16" alt=""> '+
+		'Sprechen Sie Deutsch? <i>Do you speak German?</i> Velo Hero gibt es auch in Deutsch. '+
+		'<a href="//www.velohero.com/de/trainingstagebuch.html">Sprache wechseln.</a>' );
+		$('#frontpage-lang').removeClass('hidden');
+	}	if ( userLang.match(/^it/) ) {
+		$('#frontpage-lang-text').html( '<img src="/static/images/icons/flags/it.png" width="16" height="16" alt=""> '+
+		'Parli Italiano? <i>Do you speak Italian?</i> Velo Hero è disponibile anche in italiano. '+
+		'<a href="//www.velohero.com/it/diario-di-allenamento.html">Cambia lingua.</a>' );
+		$('#frontpage-lang').removeClass('hidden');
+	}	if ( userLang.match(/^fr/) ) {
+		$('#frontpage-lang-text').html( '<img src="/static/images/icons/flags/fr.png" width="16" height="16" alt=""> '+
+		'Parlez-vous français? <i>Do you speak French?</i> Velo Hero est également disponible en français. '+
+		'<a href="//www.velohero.com/fr/journal-d-entrainement.html">Changer de langue.</a>' );
+		$('#frontpage-lang').removeClass('hidden');
+	}	if ( userLang.match(/^hu/) ) {
+		$('#frontpage-lang-text').html( '<img src="/static/images/icons/flags/hu.png" width="16" height="16" alt=""> '+
+		'Beszélsz magyarul? <i>Do you speak Hungarian?</i> Velo Hero is elérhető magyarul. '+
+		'<a href="//www.velohero.com/hu/edzesnaplo.html">Nyelv módosítása.</a>' );
+		$('#frontpage-lang').removeClass('hidden');
+	}	if ( userLang.match(/^pl/) ) {
+		$('#frontpage-lang-text').html( '<img src="/static/images/icons/flags/pl.png" width="16" height="16" alt=""> '+
+		'Czy mówisz po polsku? <i>Do you speak Polish?</i> Velo Hero jest również dostępna w języku angielskim. '+
+		'<a href="//www.velohero.com/pl/dziennika-treningowego.html">Zmień język.</a>' );
+		$('#frontpage-lang').removeClass('hidden');
+	}	if ( userLang.match(/^nl/) ) {
+		$('#frontpage-lang-text').html( '<img src="/static/images/icons/flags/nl.png" width="16" height="16" alt=""> '+
+		'Spreek je Nederlands? <i>Do you speak Dutch?</i> Velo Hero is ook beschikbaar in het Nederlands. '+
+		'<a href="//www.velohero.com/nl/trainingslogboek.html">Wijzig taal.</a>' );
+		$('#frontpage-lang').removeClass('hidden');
+	}	if ( userLang.match(/^zh/) ) {
+		$('#frontpage-lang-text').html( '<img src="/static/images/icons/flags/cn.png" width="16" height="16" alt=""> '+
+		'你会说中国人吗？ <i>Do you speak Chinese?</i> 腭英雄也有英文。 '+
+		'<a href="//www.velohero.com/zh-cn/trainingdiary.html">改变语言</a>' );
+		$('#frontpage-lang').removeClass('hidden');
+	}	if ( userLang.match(/^pt-br/i) ) {
+		$('#frontpage-lang-text').html( '<img src="/static/images/icons/flags/br.png" width="16" height="16" alt=""> '+
+		'Você fala Português do Brasil? <i>Do you speak Brazilian Portuguese?</i> Velo Hero também está disponível em Português do Brasil. '+
+		'<a href="//www.velohero.com/pt-br/software-de-registro-de-treinamento.html">Alterar idioma.</a>' );
+		$('#frontpage-lang').removeClass('hidden');
+	}</script>
+
+<div class="modal fade" id="userExitModal" tabindex="-1" role="dialog" aria-labelledby="userExitModalLabel">
+	<div class="modal-dialog" role="document">
+		<div class="modal-content">
+			<div class="modal-header">
+				<button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+				<h4 class="modal-title" id="userExitModalLabel">
+					Join Velo Hero today, it's free.
+				</h4>
+			</div>
+			<div class="modal-body">
+				<p>Sign up for free in just 2 minutes. Not convinced? Get FREE <a href="/pro">Pro Membership</a> for 45 days when you sign up today.</p>
+			</div>
+			<div class="modal-footer">
+				<a class="btn btn-primary" href="http://app.velohero.com/register" role="button">Sign Up for Free</a>
+			</div>
+		</div>
+	</div>
+</div>
+<script>
+var last_position = {};
+$(document).ready(function() {
+	$(document).on('mousemove', function (event) {
+		if (typeof(last_position.x) != 'undefined') {
+			var deltaX = last_position.x - event.offsetX,
+			    deltaY = last_position.y - event.offsetY;
+			if (Math.abs(deltaY) > Math.abs(deltaX) && deltaY > 0) {
+				if(event.pageY <= 5) {
+					$('#userExitModal').modal('show');
+				}
+			}
+		}
+		last_position = {
+			x : event.offsetX,
+			y : event.offsetY
+		};
+	});
+});
+</script>
+
+<script>
+(function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+(i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+})(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+ga('create', 'UA-1984327-8', 'auto');
+ga('set', 'anonymizeIp', true);
+ga('send', 'pageview');
+</script>
+
+</body>
+</html>

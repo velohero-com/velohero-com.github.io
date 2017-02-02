@@ -1,0 +1,132 @@
+@font-face {
+    font-family: 'velohero';
+    src:    url('fonts/velohero.eot?cow6ae');
+    src:    url('fonts/velohero.eot?cow6ae#iefix') format('embedded-opentype'),
+        url('fonts/velohero.ttf?cow6ae') format('truetype'),
+        url('fonts/velohero.woff?cow6ae') format('woff'),
+        url('fonts/velohero.svg?cow6ae#velohero') format('svg');
+    font-weight: normal;
+    font-style: normal;
+}
+
+[class^="vh-"], [class*=" vh-"] {
+    /* use !important to prevent issues with browser extensions that change fonts */
+    font-family: 'velohero' !important;
+    speak: none;
+    font-style: normal;
+    font-weight: normal;
+    font-variant: normal;
+    text-transform: none;
+    line-height: 1;
+
+    /* Better Font Rendering =========== */
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+}
+
+.vh-snowflake:before {
+    content: "\e900";
+}
+.vh-sun:before {
+    content: "\e600";
+}
+.vh-cloud-sun:before {
+    content: "\e601";
+}
+.vh-fog:before {
+    content: "\e602";
+}
+.vh-cloud:before {
+    content: "\e603";
+}
+.vh-rain:before {
+    content: "\e605";
+}
+.vh-snow:before {
+    content: "\e606";
+}
+.vh-hail:before {
+    content: "\e607";
+}
+.vh-na:before {
+    content: "\e609";
+}
+.vh-celsius:before {
+    content: "\e60a";
+}
+.vh-fahrenheit:before {
+    content: "\e60b";
+}
+.vh-thermometer:before {
+    content: "\e60c";
+}
+.vh-wind:before {
+    content: "\e60d";
+}
+.vh-flash:before {
+    content: "\e617";
+}
+.vh-drizzle:before {
+    content: "\e604";
+}
+.vh-key:before {
+    content: "\e608";
+}
+.vh-indoor:before {
+    content: "\e614";
+}
+.vh-chart-line:before {
+    content: "\e61b";
+}
+.vh-chart-bar:before {
+    content: "\e61c";
+}
+.vh-chart-pie:before {
+    content: "\e61d";
+}
+.vh-hike:before {
+    content: "\e622";
+}
+.vh-mtb:before {
+    content: "\e623";
+}
+.vh-ski:before {
+    content: "\e624";
+}
+.vh-swimming:before {
+    content: "\e60e";
+}
+.vh-cycling:before {
+    content: "\e60f";
+}
+.vh-stopwatch:before {
+    content: "\e610";
+}
+.vh-fitness:before {
+    content: "\e611";
+}
+.vh-strength:before {
+    content: "\e612";
+}
+.vh-running:before {
+    content: "\e613";
+}
+.vh-logo:before {
+    content: "\e615";
+}
+.vh-graph:before {
+    content: "\e61a";
+}
+.vh-progress-3:before {
+    content: "\e61e";
+}
+.vh-progress-2:before {
+    content: "\e61f";
+}
+.vh-progress-1:before {
+    content: "\e620";
+}
+.vh-progress-0:before {
+    content: "\e621";
+}
+
