@@ -1,2 +1,2 @@
-Sitemap: http://www.velohero.com/sitemap.xml
+Sitemap: https://www.velohero.com/sitemap.xml
 Disallow: /static/
