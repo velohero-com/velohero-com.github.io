@@ -15,12 +15,12 @@
 	<link href="/static/touchicon.png?v=0.6.3" rel="apple-touch-icon">
 	<link href="/static/icon_192px.png?v=0.6.3" rel="icon" sizes="192x192">
 	
-	<link href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/3.3.6/css/bootstrap.min.css" rel="stylesheet">
+	<link href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/3.3.7/css/bootstrap.min.css" rel="stylesheet">
 	<link href="/static/css/frontpage.css?v=0.6.3" rel="stylesheet">
-	<link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.6.1/css/font-awesome.min.css" rel="stylesheet">
+	<link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet">
 	<link href="/static/font/velohero/style.css?v=0.6.3" rel="stylesheet">
 	
-	<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/2.2.1/jquery.min.js"></script>
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/2.2.4/jquery.min.js"></script>
 	
 	<!--[if lt IE 9]>
 	<script src="//cdnjs.cloudflare.com/ajax/libs/html5shiv/3.6.2/html5shiv.js"></script>
@@ -183,22 +183,36 @@
 	</p>
 </footer>
 <!-- Cookie Consent -->
+<link rel="stylesheet" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/cookieconsent2/3.1.0/cookieconsent.min.css">
+<script src="https://cdnjs.cloudflare.com/ajax/libs/cookieconsent2/3.1.0/cookieconsent.min.js"></script>
 <script>
-window.cookieconsent_options = {
-	theme: 'light-bottom',
-	message: "Este sitio utiliza cookies para ofrecer sus servicios, para personalizar anuncios y analizar el tráfico. Se comparte información sobre tu uso de este sitio con Google. Al usar este sitio, aceptas el uso que hace de las cookies.",
-	learnMore: "Más información",
-	dismiss: "Entendido!",
-	path: '/; domain=.velohero.com',
-	expiryDays: 730,
-	link: 'https://app.velohero.com/privacy%3Flang%3Des%26amp%3Bunit%3D0'
-};
+window.addEventListener("load", function(){
+	window.cookieconsent.initialise({
+	"palette": {
+		"popup": {
+			"background": "#fff"
+		},
+		"button": {
+			"background": "#428BCA"
+		}
+	},
+	"theme": "classic",
+	"content": {
+		"message": "Este sitio utiliza cookies para ofrecer sus servicios, para personalizar anuncios y analizar el tráfico. Se comparte información sobre tu uso de este sitio con Google. Al usar este sitio, aceptas el uso que hace de las cookies.",
+		"dismiss": "Entendido!",
+		"link": "Más información",
+		"href": 'https://app.velohero.com/privacy%3Flang%3Des%26amp%3Bunit%3D0'
+	},
+	"cookie": {
+		"domain": ".velohero.com"
+	}
+	})
+});
 </script>
-<script src="https://cdnjs.cloudflare.com/ajax/libs/cookieconsent2/1.0.10/cookieconsent.min.js"></script>
 <!-- // Cookie Consent -->
 </div> <!-- // container -->
 
-<script src="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/3.3.6/js/bootstrap.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/3.3.7/js/bootstrap.min.js"></script>
 
 <script>
 	var userLang = navigator.language || navigator.userLanguage;

@@ -15,12 +15,12 @@
 	<link href="/static/touchicon.png?v=0.6.3" rel="apple-touch-icon">
 	<link href="/static/icon_192px.png?v=0.6.3" rel="icon" sizes="192x192">
 	
-	<link href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/3.3.6/css/bootstrap.min.css" rel="stylesheet">
+	<link href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/3.3.7/css/bootstrap.min.css" rel="stylesheet">
 	<link href="/static/css/frontpage.css?v=0.6.3" rel="stylesheet">
-	<link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.6.1/css/font-awesome.min.css" rel="stylesheet">
+	<link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet">
 	<link href="/static/font/velohero/style.css?v=0.6.3" rel="stylesheet">
 	
-	<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/2.2.1/jquery.min.js"></script>
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/2.2.4/jquery.min.js"></script>
 	
 	<!--[if lt IE 9]>
 	<script src="//cdnjs.cloudflare.com/ajax/libs/html5shiv/3.6.2/html5shiv.js"></script>
@@ -183,22 +183,36 @@
 	</p>
 </footer>
 <!-- Cookie Consent -->
+<link rel="stylesheet" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/cookieconsent2/3.1.0/cookieconsent.min.css">
+<script src="https://cdnjs.cloudflare.com/ajax/libs/cookieconsent2/3.1.0/cookieconsent.min.js"></script>
 <script>
-window.cookieconsent_options = {
-	theme: 'light-bottom',
-	message: "This site uses cookies to deliver its services, to personalize ads and to analyze traffic. Information about your use of this site is shared with Google. By using this site, you agree to its use of cookies.",
-	learnMore: "More info",
-	dismiss: "Got it!",
-	path: '/; domain=.velohero.com',
-	expiryDays: 730,
-	link: 'https://app.velohero.com/privacy'
-};
+window.addEventListener("load", function(){
+	window.cookieconsent.initialise({
+	"palette": {
+		"popup": {
+			"background": "#fff"
+		},
+		"button": {
+			"background": "#428BCA"
+		}
+	},
+	"theme": "classic",
+	"content": {
+		"message": "This site uses cookies to deliver its services, to personalize ads and to analyze traffic. Information about your use of this site is shared with Google. By using this site, you agree to its use of cookies.",
+		"dismiss": "Got it!",
+		"link": "More info",
+		"href": 'https://app.velohero.com/privacy'
+	},
+	"cookie": {
+		"domain": ".velohero.com"
+	}
+	})
+});
 </script>
-<script src="https://cdnjs.cloudflare.com/ajax/libs/cookieconsent2/1.0.10/cookieconsent.min.js"></script>
 <!-- // Cookie Consent -->
 </div> <!-- // container -->
 
-<script src="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/3.3.6/js/bootstrap.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/3.3.7/js/bootstrap.min.js"></script>
 
 <script>
 	var userLang = navigator.language || navigator.userLanguage;
