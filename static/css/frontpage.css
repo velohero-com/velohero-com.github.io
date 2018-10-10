@@ -1,3 +1,7 @@
+body {
+	padding-bottom: 40px;
+}
+
 .logo {
 	font-family: Tahoma, Verdana, sans-serif;
 	font-weight: bold;
