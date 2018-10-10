@@ -1,0 +1,787 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="HandheldFriendly" content="True">
+	<meta name="MobileOptimized" content="320">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	
+	<title>Vásárolj Prémium Tagságot - Velo Hero</title>
+	
+	<link href="/static/favicon.ico?v=0.6.3" rel="shortcut icon">
+	<link href="/static/touchicon.png?v=0.6.3" rel="apple-touch-icon">
+	<link href="/static/icon_192px.png?v=0.6.3" rel="icon" sizes="192x192">
+	
+	<link href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/3.3.7/css/bootstrap.min.css" rel="stylesheet">
+	<link href="/static/css/default.css?v=0.6.3" rel="stylesheet">
+	<link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet">
+	<link href="/static/font/velohero/style.css?v=0.6.3" rel="stylesheet">
+	
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/2.2.4/jquery.min.js"></script>
+	
+	<!--[if lt IE 9]>
+		<script src="https://cdnjs.cloudflare.com/ajax/libs/html5shiv/3.7.3/html5shiv.min.js"></script>
+		<script src="https://cdnjs.cloudflare.com/ajax/libs/respond.js/1.4.2/respond.min.js"></script>
+	<![endif]-->
+</head>
+<body>
+<div class="navbar navbar-inverse navbar-fixed-top" role="navigation"><div class="container">	<!-- Velo Hero logo -->
+	<div class="navbar-header">
+		<button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
+			<span class="sr-only">Toggle navigation</span>
+			<span class="icon-bar"></span>
+			<span class="icon-bar"></span>
+			<span class="icon-bar"></span>
+		</button>
+		<a class="navbar-brand logo" href="//www.velohero.com/hu/edzesnaplo.html">
+	Vel<span class="logo-spaceing">o</span><span class="logo-spaceing"><i class="fa vh-logo"></i></span>Hero
+</a>
+	</div>
+	<!-- Velo Hero logo -->
+	<div class="navbar-collapse collapse">		<ul class="nav navbar-nav navbar-right">
+			<li><a href="//www.velohero.com/hu/tour.html">Szolgáltatások</a></li>
+			<li><a href="https://app.velohero.com/register?lang=hu&amp;unit=0">Regisztráció</a></li>
+			<li><a href="https://app.velohero.com/login?lang=hu&amp;unit=0"><i class="fa fa-sign-in"></i> Bejelentkezés</a></li>
+			<li class="dropdown">
+				<a href="#" class="dropdown-toggle" data-toggle="dropdown"><i class="fa fa-globe"></i> Nyelv <b class="caret"></b></a>
+				 <ul class="dropdown-menu">
+	<li><a href="//www.velohero.com/"><i class="fa fa-square-o fa-fw"></i> <img src="/static/images/icons/flags/gb.png" width="16" height="16" alt=""> English / Angol</a></li>
+	<li><a href="//www.velohero.com/es/diario-de-entrenamiento.html"><i class="fa fa-square-o fa-fw"></i> <img src="/static/images/icons/flags/es.png" width="16" height="16" alt=""> Español / Spanyol</a></li>
+	<li><a href="//www.velohero.com/de/trainingstagebuch.html"><i class="fa fa-square-o fa-fw"></i> <img src="/static/images/icons/flags/de.png" width="16" height="16" alt=""> Deutsch / Német</a></li>
+	<li><a href="//www.velohero.com/it/diario-di-allenamento.html"><i class="fa fa-square-o fa-fw"></i> <img src="/static/images/icons/flags/it.png" width="16" height="16" alt=""> Italiano / Olasz</a></li>
+	<li><a href="//www.velohero.com/nl/trainingslogboek.html"><i class="fa fa-square-o fa-fw"></i> <img src="/static/images/icons/flags/nl.png" width="16" height="16" alt=""> Nederlands / Holland</a></li>
+	<li><a href="//www.velohero.com/fr/journal-d-entrainement.html"><i class="fa fa-square-o fa-fw"></i> <img src="/static/images/icons/flags/fr.png" width="16" height="16" alt=""> Français / Francia</a></li>
+	<li><a href="//www.velohero.com/pt-br/software-de-registro-de-treinamento.html"><i class="fa fa-square-o fa-fw"></i> <img src="/static/images/icons/flags/br.png" width="16" height="16" alt=""> Português brasileiro / Brazíliai portugál</a></li>
+	<li><a href="//www.velohero.com/pl/dziennika-treningowego.html"><i class="fa fa-square-o fa-fw"></i> <img src="/static/images/icons/flags/pl.png" width="16" height="16" alt=""> Polski / Lengyel</a></li>
+	<li><a href="//www.velohero.com/hu/edzesnaplo.html"><i class="fa fa-check-square-o fa-fw"></i> <img src="/static/images/icons/flags/hu.png" width="16" height="16" alt=""> Magyar</a></li>
+	<li><a href="//www.velohero.com/zh-cn/trainingdiary.html"><i class="fa fa-square-o fa-fw"></i> <img src="/static/images/icons/flags/cn.png" width="16" height="16" alt=""> 簡體字 / Egyszerűsített kínai</a></li>
+</ul>
+			</li>
+		</ul>	</div> <!-- // navbar-collapse -->
+</div> <!-- // container -->
+</div> <!-- // navigation -->
+<div class="container">
+<div class="navbar navbar-inverse navbar-fixed-top" role="navigation"><div class="container">	<!-- Velo Hero logo -->
+	<div class="navbar-header">
+		<button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
+			<span class="sr-only">Toggle navigation</span>
+			<span class="icon-bar"></span>
+			<span class="icon-bar"></span>
+			<span class="icon-bar"></span>
+		</button>
+		<a class="navbar-brand logo" href="//www.velohero.com/hu/edzesnaplo.html">
+	Vel<span class="logo-spaceing">o</span><span class="logo-spaceing"><i class="fa vh-logo"></i></span>Hero
+</a>
+	</div>
+	<!-- Velo Hero logo -->
+	<div class="navbar-collapse collapse">		<ul class="nav navbar-nav navbar-right">
+			<li><a href="//www.velohero.com/hu/tour.html">Szolgáltatások</a></li>
+			<li><a href="https://app.velohero.com/register?lang=hu&amp;unit=0">Regisztráció</a></li>
+			<li><a href="https://app.velohero.com/login?lang=hu&amp;unit=0"><i class="fa fa-sign-in"></i> Bejelentkezés</a></li>
+			<li class="dropdown">
+				<a href="#" class="dropdown-toggle" data-toggle="dropdown"><i class="fa fa-globe"></i> Nyelv <b class="caret"></b></a>
+				 <ul class="dropdown-menu">
+	<li><a href="//www.velohero.com/"><i class="fa fa-square-o fa-fw"></i> <img src="/static/images/icons/flags/gb.png" width="16" height="16" alt=""> English / Angol</a></li>
+	<li><a href="//www.velohero.com/es/diario-de-entrenamiento.html"><i class="fa fa-square-o fa-fw"></i> <img src="/static/images/icons/flags/es.png" width="16" height="16" alt=""> Español / Spanyol</a></li>
+	<li><a href="//www.velohero.com/de/trainingstagebuch.html"><i class="fa fa-square-o fa-fw"></i> <img src="/static/images/icons/flags/de.png" width="16" height="16" alt=""> Deutsch / Német</a></li>
+	<li><a href="//www.velohero.com/it/diario-di-allenamento.html"><i class="fa fa-square-o fa-fw"></i> <img src="/static/images/icons/flags/it.png" width="16" height="16" alt=""> Italiano / Olasz</a></li>
+	<li><a href="//www.velohero.com/nl/trainingslogboek.html"><i class="fa fa-square-o fa-fw"></i> <img src="/static/images/icons/flags/nl.png" width="16" height="16" alt=""> Nederlands / Holland</a></li>
+	<li><a href="//www.velohero.com/fr/journal-d-entrainement.html"><i class="fa fa-square-o fa-fw"></i> <img src="/static/images/icons/flags/fr.png" width="16" height="16" alt=""> Français / Francia</a></li>
+	<li><a href="//www.velohero.com/pt-br/software-de-registro-de-treinamento.html"><i class="fa fa-square-o fa-fw"></i> <img src="/static/images/icons/flags/br.png" width="16" height="16" alt=""> Português brasileiro / Brazíliai portugál</a></li>
+	<li><a href="//www.velohero.com/pl/dziennika-treningowego.html"><i class="fa fa-square-o fa-fw"></i> <img src="/static/images/icons/flags/pl.png" width="16" height="16" alt=""> Polski / Lengyel</a></li>
+	<li><a href="//www.velohero.com/hu/edzesnaplo.html"><i class="fa fa-check-square-o fa-fw"></i> <img src="/static/images/icons/flags/hu.png" width="16" height="16" alt=""> Magyar</a></li>
+	<li><a href="//www.velohero.com/zh-cn/trainingdiary.html"><i class="fa fa-square-o fa-fw"></i> <img src="/static/images/icons/flags/cn.png" width="16" height="16" alt=""> 簡體字 / Egyszerűsített kínai</a></li>
+</ul>
+			</li>
+		</ul>	</div> <!-- // navbar-collapse -->
+</div> <!-- // container -->
+</div> <!-- // navigation --><div class="page-header">
+	<h1>
+		Vásárolj Prémium Tagságot
+		<span class="pull-right hidden-xs hidden-sm">			<a href="https://app.velohero.com/register?lang=hu&amp;unit=0" class="btn btn-primary">Ingyenes regisztr&aacute;ci&oacute;</a>		</span>
+	</h1>
+</div>
+<p class="hidden-md hidden-lg">
+	<a href="https://app.velohero.com/register?lang=hu&amp;unit=0" class="btn btn-primary">Ingyenes regisztr&aacute;ci&oacute;</a>
+</p>
+<div class="row">
+	<div class="col-sm-12">
+		<blockquote>
+			<div class="row">
+				<div class="col-sm-2 text-center">
+					<img src="/static/images/ich_300x300.jpg?v=0.6.3" alt="" class="img-circle img-responsive hidden-xs" width="300" height="300">
+				</div>
+				<div class="col-sm-10">
+					<p>A Velo Hero egyszemélyes projekt. Nem kapok támogatást más cégektől és az adataid sem lesznek értékesítve. Ahhoz, hogy a havi szerver üzemeltetéssel kapcsolatos költségeket fedezzem, szükségem van a támogatásodra. Hozzájárulásod nélkül a projekt nem létezhetne.</p>
+					<footer>Nils Knieling, a Velo Hero alapítója</footer>
+				</div>
+			</div>
+		</blockquote>
+	</div>
+</div>
+
+<div class="row">
+	<div class="col-md-5 col-md-offset-3">
+		<div class="panel panel-primary">
+			<div class="panel-heading">
+				<h3 class="panel-title">Prémium Tagság</h3>
+			</div>
+			<div class="panel-body text-center">
+				<p>
+					Vásárolj egy éves Prémium Tagságot csak
+				</p>
+				<div class="the-price">
+					
+					<h1>
+						€ 19
+						<span class="subscript">
+							/ Év
+							<small class="text-muted">(addicionális adó/ÁFA)</small>
+						</span>
+					</h1>
+					
+				</div>
+			</div>
+			<ul class="list-group list-group-flush text-center">
+				<li class="list-group-item">Nincs előfizetés</li>
+				<li class="list-group-item">Még több elemzési lehetőség</li>
+				<li class="list-group-item">Akár 12 pulzus- és teljesítmény zóna sportonként és időtartamonként.</li>
+				<li class="list-group-item">A jó érzés, hogy ezt a projektet támogatod</li>
+			</ul>
+			<div class="panel-footer text-center">
+				<a href="https://order.shareit.com/cart/new?vendorid=200151073&PRODUCT[300645150]=1&amp;pc=lrmut" class="btn btn-success btn-lg btn-block" role="button">
+					<i class="fa fa-shopping-cart"></i>
+					Támogass most
+				</a>
+			</div>
+		</div>
+	</div></div>
+
+<div class="page-header">
+	<h2>
+		Három egyszerű lépés a Prémium Tagság megszerzéséig
+	</h2>
+</div>
+
+<div class="row">
+	<div class="col-md-4">
+		<p class="text-center"><i class="fa fa-credit-card" style="font-size: 60px"></i></p>
+		<p><strong>1.)</strong> Vásárolj Prémium Tagságot a Digital River-en keresztül (oszd meg!). Több fizetési típus közül is választhatsz (bankkártya, PayPal, banki átutalás, stb.).</p>
+	</div>
+	<div class="col-md-4">
+		<p class="text-center"><i class="fa fa-envelope-o" style="font-size: 60px"></i></p>
+		<p><strong>2.)</strong> Fizetés után a licensz kulcs email-ben kerül megküldésre (feladó @shareit.com). Amennyiben bankkártyával egyenlíted ki a számlát, a licenszkulcs rögtön a fizetés után látható lesz. Ha nem érkezett email, nézd meg a SPAM mappát is.</p>
+	</div>
+	<div class="col-md-4">
+		<p class="text-center"><i class="fa vh-key" style="font-size: 60px"></i></p>
+		<p><strong>3.)</strong> A Prémium Tagság aktiválásához a licensz kulcsod az alábbi oldalon érvényesítsd: <code><a href="/activate">https://app.velohero.com/activate</a></code></p>
+	</div>
+</div>
+
+<div class="page-header">
+	<h2>
+		Funkciók részletesen
+	</h2>
+</div>
+
+<div class="row">
+	<div class="col-md-6">
+		
+		<table class="table table-striped">
+<thead>
+	<tr>
+		<th>&nbsp;</th>
+		<th>
+			FREE
+		</th>
+		<th>			PRO		</th>
+	</tr>
+</thead>
+<tbody><tr>
+	<th>
+		advertising
+		
+		
+		
+		
+		
+		
+	</th>
+	<td><i class="fa fa-check-square-o fa-2x"></i></td>
+	<td><i class="fa fa-square-o fa-2x"></i></td>
+</tr><tr>
+	<th>
+		Smoothed Power
+		
+		<a href="https://sites.google.com/site/veloherohelp/glossary/smoothed-power" class="text-top-tooltip" target="_blank"><i class="fa fa-question-circle" title="Segítség" data-toggle="tooltip"></i></a>
+		
+		
+		
+		
+	</th>
+	<td><i class="fa fa-square-o fa-2x"></i></td>
+	<td><i class="fa fa-check-square-o fa-2x"></i></td>
+</tr><tr>
+	<th>
+		Velo Hero Level
+		
+		
+		<a href="https://sites.google.com/site/veloherohelp/glossary/velo-hero-level" class="text-top-tooltip" target="_blank"><i class="fa fa-question-circle" title="Segítség" data-toggle="tooltip"></i></a>
+		
+		
+		
+	</th>
+	<td><i class="fa fa-square-o fa-2x"></i></td>
+	<td><i class="fa fa-check-square-o fa-2x"></i></td>
+</tr><tr>
+	<th>
+		Velo Hero Points
+		
+		
+		
+		<a href="https://sites.google.com/site/veloherohelp/glossary/velo-hero-points" class="text-top-tooltip" target="_blank"><i class="fa fa-question-circle" title="Segítség" data-toggle="tooltip"></i></a>
+		
+		
+	</th>
+	<td><i class="fa fa-square-o fa-2x"></i></td>
+	<td><i class="fa fa-check-square-o fa-2x"></i></td>
+</tr><tr>
+	<th>
+		Velocità Ascensionale Media (VAM)
+		
+		
+		
+		
+		
+		<a href="https://sites.google.com/site/veloherohelp/glossary/vam" class="text-top-tooltip" target="_blank"><i class="fa fa-question-circle" title="Segítség" data-toggle="tooltip"></i></a>
+	</th>
+	<td><i class="fa fa-square-o fa-2x"></i></td>
+	<td><i class="fa fa-check-square-o fa-2x"></i></td>
+</tr><tr>
+	<th>
+		Teljesítmény/súly
+		
+		
+		
+		
+		
+		
+	</th>
+	<td><i class="fa fa-square-o fa-2x"></i></td>
+	<td><i class="fa fa-check-square-o fa-2x"></i></td>
+</tr><tr>
+	<th>
+		Automata küszöb kiszámítása (FTP)
+		<a href="https://sites.google.com/site/veloherohelp/glossary/functional-threshold-power" class="text-top-tooltip" target="_blank"><i class="fa fa-question-circle" title="Segítség" data-toggle="tooltip"></i></a>
+		
+		
+		
+		
+		
+	</th>
+	<td><i class="fa fa-square-o fa-2x"></i></td>
+	<td><i class="fa fa-check-square-o fa-2x"></i></td>
+</tr><tr>
+	<th>
+		Mozgással töltött idő
+		
+		
+		
+		
+		
+		
+	</th>
+	<td><i class="fa fa-square-o fa-2x"></i></td>
+	<td><i class="fa fa-check-square-o fa-2x"></i></td>
+</tr><tr>
+	<th>
+		Pedáltekeréssel töltött idő
+		
+		
+		
+		
+		
+		
+	</th>
+	<td><i class="fa fa-square-o fa-2x"></i></td>
+	<td><i class="fa fa-check-square-o fa-2x"></i></td>
+</tr><tr>
+	<th>
+		Teljesítménnyel töltött idő
+		
+		
+		
+		
+		
+		
+	</th>
+	<td><i class="fa fa-square-o fa-2x"></i></td>
+	<td><i class="fa fa-check-square-o fa-2x"></i></td>
+</tr><tr>
+	<th>
+		TRaining IMPulse (TRIMP)
+		
+		
+		
+		
+		<a href="https://sites.google.com/site/veloherohelp/glossary/training-impulse-trimp" class="text-top-tooltip" target="_blank"><i class="fa fa-question-circle" title="Segítség" data-toggle="tooltip"></i></a>
+		
+	</th>
+	<td><i class="fa fa-square-o fa-2x"></i></td>
+	<td><i class="fa fa-check-square-o fa-2x"></i></td>
+</tr><tr>
+	<th>
+		Pulzuszónában töltött idő
+		
+		
+		
+		
+		
+		
+	</th>
+	<td><i class="fa fa-square-o fa-2x"></i></td>
+	<td><i class="fa fa-check-square-o fa-2x"></i></td>
+</tr><tr>
+	<th>
+		Teljesítmény zónában töltött idő
+		
+		
+		
+		
+		
+		
+	</th>
+	<td><i class="fa fa-square-o fa-2x"></i></td>
+	<td><i class="fa fa-check-square-o fa-2x"></i></td>
+</tr><tr>
+	<th>
+		Átlagos max sebesség (távolság/idő)
+		
+		
+		
+		
+		
+		
+	</th>
+	<td><i class="fa fa-square-o fa-2x"></i></td>
+	<td><i class="fa fa-check-square-o fa-2x"></i></td>
+</tr><tr>
+	<th>
+		Átlagos max menetsebesség (idő/távolság)
+		
+		
+		
+		
+		
+		
+	</th>
+	<td><i class="fa fa-square-o fa-2x"></i></td>
+	<td><i class="fa fa-check-square-o fa-2x"></i></td>
+</tr><tr>
+	<th>
+		Átlagos max pulzusszám
+		
+		
+		
+		
+		
+		
+	</th>
+	<td><i class="fa fa-square-o fa-2x"></i></td>
+	<td><i class="fa fa-check-square-o fa-2x"></i></td>
+</tr><tr>
+	<th>
+		Átlagos max pedálfordulat
+		
+		
+		
+		
+		
+		
+	</th>
+	<td><i class="fa fa-square-o fa-2x"></i></td>
+	<td><i class="fa fa-check-square-o fa-2x"></i></td>
+</tr><tr>
+	<th>
+		Átlagos max teljesítmény
+		
+		
+		
+		
+		
+		
+	</th>
+	<td><i class="fa fa-square-o fa-2x"></i></td>
+	<td><i class="fa fa-check-square-o fa-2x"></i></td>
+</tr><tr>
+	<th>
+		Időtartam
+		
+		
+		
+		
+		
+		
+	</th>
+	<td><i class="fa fa-check-square-o fa-2x"></i></td>
+	<td><i class="fa fa-check-square-o fa-2x"></i></td>
+</tr><tr>
+	<th>
+		Távolság
+		
+		
+		
+		
+		
+		
+	</th>
+	<td><i class="fa fa-check-square-o fa-2x"></i></td>
+	<td><i class="fa fa-check-square-o fa-2x"></i></td>
+</tr><tr>
+	<th>
+		Emelkedés (mászás)
+		
+		
+		
+		
+		
+		
+	</th>
+	<td><i class="fa fa-check-square-o fa-2x"></i></td>
+	<td><i class="fa fa-check-square-o fa-2x"></i></td>
+</tr><tr>
+	<th>
+		Ereszkedés
+		
+		
+		
+		
+		
+		
+	</th>
+	<td><i class="fa fa-check-square-o fa-2x"></i></td>
+	<td><i class="fa fa-check-square-o fa-2x"></i></td>
+</tr><tr>
+	<th>
+		Tengerszint feletti magasság
+		
+		
+		
+		
+		
+		
+	</th>
+	<td><i class="fa fa-check-square-o fa-2x"></i></td>
+	<td><i class="fa fa-check-square-o fa-2x"></i></td>
+</tr><tr>
+	<th>
+		Sebesség
+		
+		
+		
+		
+		
+		
+	</th>
+	<td><i class="fa fa-check-square-o fa-2x"></i></td>
+	<td><i class="fa fa-check-square-o fa-2x"></i></td>
+</tr><tr>
+	<th>
+		Menetsebesség
+		
+		
+		
+		
+		
+		
+	</th>
+	<td><i class="fa fa-check-square-o fa-2x"></i></td>
+	<td><i class="fa fa-check-square-o fa-2x"></i></td>
+</tr><tr>
+	<th>
+		Pulzusszám
+		
+		
+		
+		
+		
+		
+	</th>
+	<td><i class="fa fa-check-square-o fa-2x"></i></td>
+	<td><i class="fa fa-check-square-o fa-2x"></i></td>
+</tr><tr>
+	<th>
+		Pedálfordulat
+		
+		
+		
+		
+		
+		
+	</th>
+	<td><i class="fa fa-check-square-o fa-2x"></i></td>
+	<td><i class="fa fa-check-square-o fa-2x"></i></td>
+</tr><tr>
+	<th>
+		Teljesítmény
+		
+		
+		
+		
+		
+		
+	</th>
+	<td><i class="fa fa-check-square-o fa-2x"></i></td>
+	<td><i class="fa fa-check-square-o fa-2x"></i></td>
+</tr><tr>
+	<th>
+		Kalóriák
+		
+		
+		
+		
+		
+		
+	</th>
+	<td><i class="fa fa-check-square-o fa-2x"></i></td>
+	<td><i class="fa fa-check-square-o fa-2x"></i></td>
+</tr><tr>
+	<th>
+		Testsúly
+		
+		
+		
+		
+		
+		
+	</th>
+	<td><i class="fa fa-check-square-o fa-2x"></i></td>
+	<td><i class="fa fa-check-square-o fa-2x"></i></td>
+</tr><tr>
+	<th>
+		Felszerelés
+		
+		
+		
+		
+		
+		
+	</th>
+	<td><i class="fa fa-check-square-o fa-2x"></i></td>
+	<td><i class="fa fa-check-square-o fa-2x"></i></td>
+</tr><tr>
+	<th>
+		Sportok alapján mért idő
+		
+		
+		
+		
+		
+		
+	</th>
+	<td><i class="fa fa-check-square-o fa-2x"></i></td>
+	<td><i class="fa fa-check-square-o fa-2x"></i></td>
+</tr><tr>
+	<th>
+		Sportok alapján mért távolság
+		
+		
+		
+		
+		
+		
+	</th>
+	<td><i class="fa fa-check-square-o fa-2x"></i></td>
+	<td><i class="fa fa-check-square-o fa-2x"></i></td>
+</tr><tr>
+	<th>
+		Edzés típusa alapján mért idő
+		
+		
+		
+		
+		
+		
+	</th>
+	<td><i class="fa fa-check-square-o fa-2x"></i></td>
+	<td><i class="fa fa-check-square-o fa-2x"></i></td>
+</tr><tr>
+	<th>
+		Edzés típusa alapján mért távolság
+		
+		
+		
+		
+		
+		
+	</th>
+	<td><i class="fa fa-check-square-o fa-2x"></i></td>
+	<td><i class="fa fa-check-square-o fa-2x"></i></td>
+</tr></tbody>
+</table>
+		<hr>
+	</div>
+	<div class="col-md-6">
+		<img src="/static/images/pro_features.jpg?v=0.6.3" alt="" class="img-thumbnail img-responsive" width="492" height="2003">
+	</div>
+</div>
+<br>
+
+<p>
+	<a href="https://app.velohero.com/register?lang=hu&amp;unit=0" class="btn btn-primary">Ingyenes regisztr&aacute;ci&oacute;</a>
+</p>
+<hr>
+<footer class="text-center text-muted">
+	<p>
+		<small>
+			<a href="https://app.velohero.com/help?lang=hu&amp;unit=0">Felveszi a kapcsolatot</a> |
+			<a href="//www.velohero.com/static/terms.pdf" target="_blank">Felhasználási feltételek</a> |
+			<a href="//www.velohero.com/static/privacy.pdf" target="_blank">Adatvédelmi irányelvek</a> |
+			<a href="//www.velohero.com/hu/pro.html">Prémium Tagság</a> |
+			<a href="https://app.velohero.com/imprint?lang=hu&amp;unit=0">Információ az oldalról</a>
+		</small>
+	</p>
+	<p>
+		<small>
+			<i class="fa vh-logo"></i>
+			Velo Hero<sup>&reg;</sup> 
+			- 
+			&copy; 2018 
+			<a href="https://www.nkn-it.de/">Nils Knieling</a>
+			-
+			All rights reserved
+		</small>
+	</p>
+</footer>
+<!-- Cookie Consent -->
+<link rel="stylesheet" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/cookieconsent2/3.1.0/cookieconsent.min.css">
+<script src="https://cdnjs.cloudflare.com/ajax/libs/cookieconsent2/3.1.0/cookieconsent.min.js"></script>
+<script>
+window.addEventListener("load", function(){
+	window.cookieconsent.initialise({
+	"palette": {
+		"popup": {
+			"background": "#fff"
+		},
+		"button": {
+			"background": "#428BCA"
+		}
+	},
+	"theme": "classic",
+	"content": {
+		"message": "A weboldal cookie-kat használ a személyre szabott hirdetések és adatfolyam elemzés végett. Az információk a használati szokásaidról megosztásra kerülnek a Google-el. Az oldal használatával elfogadod a cookie-k jelenlétét és működését.",
+		"dismiss": "Értem!",
+		"link": "Bővebb információk",
+		"href": '%2F%2Fwww.velohero.com%2Fstatic%2Fprivacy.pdf'
+	},
+	"cookie": {
+		"domain": ".velohero.com"
+	}
+	})
+});
+</script>
+<!-- // Cookie Consent -->
+</div> <!-- // container -->
+
+<script src="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/3.3.7/js/bootstrap.min.js"></script>
+
+<script>
+	var userLang = navigator.language || navigator.userLanguage;
+		if ( userLang.match(/^en/) ) {
+		$('#frontpage-lang-text').html( '<img src="/static/images/icons/flags/gb.png" width="16" height="16" alt=""> '+
+		'Do you speak English? Velo Hero is also available in English. '+
+		'<a href="//www.velohero.com/">Change language.</a>' );
+		$('#frontpage-lang').removeClass('hidden');
+	}		if ( userLang.match(/^es/) ) {
+		$('#frontpage-lang-text').html( '<img src="/static/images/icons/flags/es.png" width="16" height="16" alt=""> '+
+		'¿Habla usted español? <i>Do you speak Spanish?</i> Velo Hero también está disponible en español. '+
+		'<a href="//www.velohero.com/es/diario-de-entrenamiento.html">Cambiar idioma.</a>' );
+		$('#frontpage-lang').removeClass('hidden');
+	}	if ( userLang.match(/^de/) ) {
+		$('#frontpage-lang-text').html( '<img src="/static/images/icons/flags/de.png" width="16" height="16" alt=""> '+
+		'Sprechen Sie Deutsch? <i>Do you speak German?</i> Velo Hero gibt es auch in Deutsch. '+
+		'<a href="//www.velohero.com/de/trainingstagebuch.html">Sprache wechseln.</a>' );
+		$('#frontpage-lang').removeClass('hidden');
+	}	if ( userLang.match(/^it/) ) {
+		$('#frontpage-lang-text').html( '<img src="/static/images/icons/flags/it.png" width="16" height="16" alt=""> '+
+		'Parli Italiano? <i>Do you speak Italian?</i> Velo Hero è disponibile anche in italiano. '+
+		'<a href="//www.velohero.com/it/diario-di-allenamento.html">Cambia lingua.</a>' );
+		$('#frontpage-lang').removeClass('hidden');
+	}	if ( userLang.match(/^fr/) ) {
+		$('#frontpage-lang-text').html( '<img src="/static/images/icons/flags/fr.png" width="16" height="16" alt=""> '+
+		'Parlez-vous français? <i>Do you speak French?</i> Velo Hero est également disponible en français. '+
+		'<a href="//www.velohero.com/fr/journal-d-entrainement.html">Changer de langue.</a>' );
+		$('#frontpage-lang').removeClass('hidden');
+	}	if ( userLang.match(/^pl/) ) {
+		$('#frontpage-lang-text').html( '<img src="/static/images/icons/flags/pl.png" width="16" height="16" alt=""> '+
+		'Czy mówisz po polsku? <i>Do you speak Polish?</i> Velo Hero jest również dostępna w języku angielskim. '+
+		'<a href="//www.velohero.com/pl/dziennika-treningowego.html">Zmień język.</a>' );
+		$('#frontpage-lang').removeClass('hidden');
+	}	if ( userLang.match(/^nl/) ) {
+		$('#frontpage-lang-text').html( '<img src="/static/images/icons/flags/nl.png" width="16" height="16" alt=""> '+
+		'Spreek je Nederlands? <i>Do you speak Dutch?</i> Velo Hero is ook beschikbaar in het Nederlands. '+
+		'<a href="//www.velohero.com/nl/trainingslogboek.html">Wijzig taal.</a>' );
+		$('#frontpage-lang').removeClass('hidden');
+	}	if ( userLang.match(/^zh/) ) {
+		$('#frontpage-lang-text').html( '<img src="/static/images/icons/flags/cn.png" width="16" height="16" alt=""> '+
+		'你会说中国人吗？ <i>Do you speak Chinese?</i> 腭英雄也有英文。 '+
+		'<a href="//www.velohero.com/zh-cn/trainingdiary.html">改变语言</a>' );
+		$('#frontpage-lang').removeClass('hidden');
+	}	if ( userLang.match(/^pt-br/i) ) {
+		$('#frontpage-lang-text').html( '<img src="/static/images/icons/flags/br.png" width="16" height="16" alt=""> '+
+		'Você fala Português do Brasil? <i>Do you speak Brazilian Portuguese?</i> Velo Hero também está disponível em Português do Brasil. '+
+		'<a href="//www.velohero.com/pt-br/software-de-registro-de-treinamento.html">Alterar idioma.</a>' );
+		$('#frontpage-lang').removeClass('hidden');
+	}</script>
+
+<div class="modal fade" id="userExitModal" tabindex="-1" role="dialog" aria-labelledby="userExitModalLabel">
+	<div class="modal-dialog" role="document">
+		<div class="modal-content">
+			<div class="modal-header">
+				<button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+				<h4 class="modal-title" id="userExitModalLabel">
+					Csatlakozz Velo Hero-hoz még ma, ingyenes!
+				</h4>
+			</div>
+			<div class="modal-body">
+				<p>Ingyenes regisztráció 2 perc alatt. Nem vagy motivált? Most INGYEN <a href="https://app.velohero.com/pro">Prémium Tagsági</a> jogosultságot kapsz a következő 45 napra, ha regisztrálsz.</p>
+			</div>
+			<div class="modal-footer">
+				<a class="btn btn-primary" href="https://app.velohero.com/register?lang=hu&amp;unit=0" role="button">Ingyenes regisztr&aacute;ci&oacute;</a>
+			</div>
+		</div>
+	</div>
+</div>
+<script>
+var last_position = {};
+$(document).ready(function() {
+	$(document).on('mousemove', function (event) {
+		if (typeof(last_position.x) != 'undefined') {
+			var deltaX = last_position.x - event.offsetX,
+			    deltaY = last_position.y - event.offsetY;
+			if (Math.abs(deltaY) > Math.abs(deltaX) && deltaY > 0) {
+				if(event.pageY <= 5) {
+					$('#userExitModal').modal('show');
+				}
+			}
+		}
+		last_position = {
+			x : event.offsetX,
+			y : event.offsetY
+		};
+	});
+});
+</script>
+
+<script>
+(function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+(i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+})(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+ga('create', 'UA-1984327-8', 'auto');
+ga('set', 'anonymizeIp', true);
+ga('send', 'pageview');
+</script>
+
+</body>
+</html>
