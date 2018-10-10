@@ -1,0 +1,366 @@
+<!DOCTYPE HTML>
+<html lang="pl" prefix="og: http://ogp.me/ns#">
+	<head>
+		<meta charset="utf-8">
+		<meta name="author" content="Velo Hero">
+		<meta name="HandheldFriendly" content="True">
+		<meta name="MobileOptimized" content="320">
+		<meta name="viewport" content="width=device-width, initial-scale=1.0">
+		<meta name="apple-mobile-web-app-status-bar-style" content="black">
+		<meta name="apple-mobile-web-app-title" content="Velo Hero">
+		<meta name="apple-mobile-web-app-capable" content="no">
+		<meta name="mobile-web-app-capable" content="yes">
+		<meta name="theme-color" content="#428bca">
+		<meta name="robots" content="noindex, nofollow, noarchive">		
+		<title>Funkcje - Velo Hero</title>
+		
+		<link href="/static/favicon.ico?v=0.6.3" rel="shortcut icon">
+		<link href="/static/touchicon.png?v=0.6.3" rel="apple-touch-icon">
+		<link href="/static/icon_192px.png?v=0.6.3" rel="icon" sizes="192x192">
+		<link href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/3.3.7/css/bootstrap.min.css" rel="stylesheet">
+		<link href="/static/bootstrap-table-filter/bootstrap-table-filter.css" rel="stylesheet">
+		<link href="https://cdnjs.cloudflare.com/ajax/libs/bootstrap-table/1.5.0/bootstrap-table.min.css" rel="stylesheet">
+		<link href="https://cdnjs.cloudflare.com/ajax/libs/fullcalendar/3.9.0/fullcalendar.min.css" rel="stylesheet">
+		<link href="https://cdnjs.cloudflare.com/ajax/libs/fullcalendar/3.9.0/fullcalendar.print.css" rel="stylesheet" media="print">
+		<link href="https://cdnjs.cloudflare.com/ajax/libs/jqueryui/1.12.1/jquery-ui.min.css" rel="stylesheet">
+		<link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet">
+		<link href="/static/font/velohero/style.css?v=0.6.3" rel="stylesheet">
+		<link href="https://cdnjs.cloudflare.com/ajax/libs/bootstrap-datepicker/1.8.0/css/bootstrap-datepicker.min.css" rel="stylesheet">
+		<link href="https://cdnjs.cloudflare.com/ajax/libs/bootstrap-timepicker/0.5.2/css/bootstrap-timepicker.min.css" rel="stylesheet">
+		<link href="https://cdnjs.cloudflare.com/ajax/libs/bootstrap-select/1.13.2/css/bootstrap-select.min.css" rel="stylesheet">
+		<link href="/static/css/default.css?v=0.6.3" rel="stylesheet">
+		
+		<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/2.2.4/jquery.min.js"></script>
+		<script src="https://cdnjs.cloudflare.com/ajax/libs/jqueryui/1.12.1/jquery-ui.min.js"></script>
+		<script src="https://cdnjs.cloudflare.com/ajax/libs/moment.js/2.22.2/moment.min.js"></script>
+		<script src="https://cdnjs.cloudflare.com/ajax/libs/fullcalendar/3.9.0/fullcalendar.min.js"></script>
+		<script src="https://cdnjs.cloudflare.com/ajax/libs/bootstrap-datepicker/1.8.0/js/bootstrap-datepicker.min.js"></script>
+		<script src="https://cdnjs.cloudflare.com/ajax/libs/bootstrap-timepicker/0.5.2/js/bootstrap-timepicker.min.js"></script>
+		<script src="https://cdnjs.cloudflare.com/ajax/libs/bootstrap-datepicker/1.8.0/locales/bootstrap-datepicker.pl.min.js"></script>
+		
+		<script src="/static/javascript/head.js?v=0.6.3"></script>
+		<script src="/static/amcharts/amcharts.js?v3.18.6"></script>
+		<script src="/static/amcharts/serial.js?v3.18.6"></script>
+		<script src="/static/amcharts/pie.js?v3.18.6"></script>
+		<script src="/static/countdown/jquery.countdown.min.js?v=0.6.3"></script>
+				
+		<!--[if lt IE 9]>
+			<script src="https://cdnjs.cloudflare.com/ajax/libs/html5shiv/3.7.3/html5shiv.min.js"></script>
+			<script src="https://cdnjs.cloudflare.com/ajax/libs/respond.js/1.4.2/respond.min.js"></script>
+		<![endif]-->
+				
+		<script src="https://app.velohero.com/javascript/head?v=0.6.3&amp;lang=pl&amp;s=dmy.0.0.0"></script>
+	</head>
+	<body >
+		<div class="navbar navbar-inverse navbar-fixed-top" role="navigation"><div class="container">	<!-- Velo Hero logo -->
+	<div class="navbar-header">
+		<button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
+			<span class="sr-only">Toggle navigation</span>
+			<span class="icon-bar"></span>
+			<span class="icon-bar"></span>
+			<span class="icon-bar"></span>
+		</button>
+		<a class="navbar-brand logo" href="//www.velohero.com/pl/dziennika-treningowego.html">
+	Vel<span class="logo-spaceing">o</span><span class="logo-spaceing"><i class="fa vh-logo"></i></span>Hero
+</a>
+	</div>
+	<!-- Velo Hero logo -->
+	<div class="navbar-collapse collapse">		<ul class="nav navbar-nav navbar-right">
+			<li><a href="//www.velohero.com/pl/tour.html">Funkcje</a></li>
+			<li><a href="https://app.velohero.com/register?lang=pl&amp;unit=0">Zapisz się</a></li>
+			<li><a href="https://app.velohero.com/login?lang=pl&amp;unit=0"><i class="fa fa-sign-in"></i> Zaloguj się</a></li>
+			<li class="dropdown">
+				<a href="#" class="dropdown-toggle" data-toggle="dropdown"><i class="fa fa-globe"></i> Język <b class="caret"></b></a>
+				 <ul class="dropdown-menu">
+	<li><a href="//www.velohero.com/"><i class="fa fa-square-o fa-fw"></i> <img src="/static/images/icons/flags/gb.png" width="16" height="16" alt=""> English / Angielski</a></li>
+	<li><a href="//www.velohero.com/es/diario-de-entrenamiento.html"><i class="fa fa-square-o fa-fw"></i> <img src="/static/images/icons/flags/es.png" width="16" height="16" alt=""> Español / Hiszpański</a></li>
+	<li><a href="//www.velohero.com/de/trainingstagebuch.html"><i class="fa fa-square-o fa-fw"></i> <img src="/static/images/icons/flags/de.png" width="16" height="16" alt=""> Deutsch / Niemiecki</a></li>
+	<li><a href="//www.velohero.com/it/diario-di-allenamento.html"><i class="fa fa-square-o fa-fw"></i> <img src="/static/images/icons/flags/it.png" width="16" height="16" alt=""> Italiano / Włoski</a></li>
+	<li><a href="//www.velohero.com/nl/trainingslogboek.html"><i class="fa fa-square-o fa-fw"></i> <img src="/static/images/icons/flags/nl.png" width="16" height="16" alt=""> Nederlands / Holenderski</a></li>
+	<li><a href="//www.velohero.com/fr/journal-d-entrainement.html"><i class="fa fa-square-o fa-fw"></i> <img src="/static/images/icons/flags/fr.png" width="16" height="16" alt=""> Français / Francuski</a></li>
+	<li><a href="//www.velohero.com/pt-br/software-de-registro-de-treinamento.html"><i class="fa fa-square-o fa-fw"></i> <img src="/static/images/icons/flags/br.png" width="16" height="16" alt=""> Português brasileiro / Portugalski brazylijski</a></li>
+	<li><a href="//www.velohero.com/pl/dziennika-treningowego.html"><i class="fa fa-check-square-o fa-fw"></i> <img src="/static/images/icons/flags/pl.png" width="16" height="16" alt=""> Polski</a></li>
+	<li><a href="//www.velohero.com/hu/edzesnaplo.html"><i class="fa fa-square-o fa-fw"></i> <img src="/static/images/icons/flags/hu.png" width="16" height="16" alt=""> Magyar / Węgierski</a></li>
+	<li><a href="//www.velohero.com/zh-cn/trainingdiary.html"><i class="fa fa-square-o fa-fw"></i> <img src="/static/images/icons/flags/cn.png" width="16" height="16" alt=""> 簡體字 / Chiński uproszczony</a></li>
+</ul>
+			</li>
+		</ul>	</div> <!-- // navbar-collapse -->
+</div> <!-- // container -->
+</div> <!-- // navigation -->		
+		<div class="container">
+						
+		<div class="page-header">
+	<h1>
+		Funkcje		<span class="pull-right hidden-xs hidden-sm">
+			<a href="https://app.velohero.com/register" class="btn btn-primary">Zapisz sie bezp&#x142;atnie</a>
+		</span>	</h1>
+</div>
+
+
+<p>
+	Velo Hero jest bezpłatny! Zapisuj swoje treningi i śledź postępy bez żadnych kosztów. Wykup <a href="https://app.velohero.com/pro">członkostwo PRO</a> aby mieć dostęp do dodatkowych funkcji, takich jak możliwość ustawienia stref tętna stref mocy. Poniżej krótki opis dodatkowychfunkcji:
+</p>
+
+
+<div class="page-header">
+	<h3>Najpierw mobilny</h3>
+</div>
+
+<div class="row">
+	<div class="col-md-8">
+		<img src="/static/images/screenshots/mac_ipad_iphone.jpg?v=0.6.3" width="1200" height="496" alt="Screenshot" class="img-responsive img-rounded">
+	</div>
+	<div class="col-md-4">
+		Z Velo Hero masz dostęp do informacji dotyczących zdrowia i treningów w dowolnym czasie. Czy to na komputerze, tablecie czy na smartfonie. W domu, w pracy lub w trasie. Wszystko czego potrzebujesz to połączenie z Internetem. 
+	</div>
+</div>
+
+
+<div class="page-header">
+	<h3>Szybki i łatwy import</h3>
+</div>
+
+<div class="row">
+	<div class="col-md-8">
+		<img src="/static/images/screenshots/upload.jpg?v=0.6.3" width="1200" height="688" alt="Screenshot" class="img-responsive img-rounded">
+	</div>
+	<div class="col-md-4">
+		Łatwo jest rozpocząć zapisywanie treningów. Importuj pliki wszystkich popularnych formatów:<ul><li>Garmin (TCX, FIT, GPX)</li><li>Schoberer Rad Messtechnik (SRM, FIT)</li><li>Polar (HRM)</li><li>TrainingPeaks (PWX)</li><li>ANT+ (FIT)</li><li>daum electronic (CSV)</li><li>SIGMA (SLF, SMF)</li><li>Falk Outdoor (GPX)</li><li>Suunto (GPX)</li><li>Mio (GPX)</li></ul>Synchronizuj swoje dane poprzez <a href="https://tapiriik.com/" target="_blank">tapiriik</a> z Garmin Connect, RunKeeper, Strava, TrainingPeaks, Endomondo, RideWithGPS i wielu innych platform do Velo Hero.
+	</div>
+</div>
+
+
+<div class="page-header">
+	<h3>Jasny opis</h3>
+</div>
+
+<div class="row">
+	<div class="col-md-8">
+		<img src="/static/images/screenshots/workouts_show.jpg?v=0.6.3" width="1200" height="803" alt="Screenshot" class="img-responsive img-rounded">
+	</div>
+	<div class="col-md-4">
+		Analizuj pojedyńczy trening. Następujące i wiele innych wartości są wyświetlane:<ul><li>Czas ruchu</li><li>Czas trwania z kadencją</li><li>Wzrost wysokości</li><li>TRIMP</li><li>Pogoda i wiatr</li><li>Sprzęt</li></ul>
+	</div>
+</div>
+
+
+<div class="page-header">
+	<h3>Głeboki wgląd</h3>
+</div>
+
+<div class="row">
+	<div class="col-md-8">
+		<img src="/static/images/screenshots/workouts_map.jpg?v=0.6.3" width="1200" height="1143" alt="Screenshot" class="img-responsive img-rounded">
+	</div>
+	<div class="col-md-4">
+		Wnikliwie analizuj trening aby wskazać potencjalne obszary poprawy. 
+	</div>
+</div>
+
+
+<div class="page-header">
+	<h3>Eksport</h3>
+</div>
+
+<div class="row">
+	<div class="col-md-8">
+		<img src="/static/images/screenshots/google_earth.jpg?v=0.6.3" width="1200" height="832" alt="Screenshot" class="img-responsive img-rounded">
+	</div>
+	<div class="col-md-4">
+		Możesz dokładnie analizować swój trening w Google Earth. Dodatkowo istnieje możliwośc eksportu plików w formacie GPX i Excel.
+	</div>
+</div>
+
+
+<div class="page-header">
+	<h3>Dystrybucja</h3>
+</div>
+
+<div class="row">
+	<div class="col-md-8">
+		<img src="/static/images/screenshots/wrokouts_show_charts.jpg?v=0.6.3" width="1200" height="776" alt="Screenshot" class="img-responsive img-rounded">
+	</div>
+	<div class="col-md-4">
+		Na następujące i wiele innych pytań znajdziesz odpowiedzi korzystając z narzędzi analitycznych:<ul><li>Jak długo czekałem na zmianę świateł na skrzyżowaniu?</li><li>Jak długo moje tętno było w przedziale 165-180 uderzeń na minutę?</li><li>Jak długo osiągałem kadencję powyżej 100 obrotów na minutę?</li></ul>
+	</div>
+</div>
+
+
+<div class="page-header">
+	<h3>Osobiste strefy tętna i mocy.</h3>
+</div>
+
+<div class="row">
+	<div class="col-md-8">
+		<img src="/static/images/screenshots/workouts_show_zones.jpg?v=0.6.3" width="1200" height="951" alt="Screenshot" class="img-responsive img-rounded">
+	</div>
+	<div class="col-md-4">
+		Ustaw do 12 stref tętna i mocy w ramach dyscypliny sportowej i w okresie.
+	</div>
+</div>
+
+
+<div class="page-header">
+	<h3>Wykres średniej maksymalnej krzywej</h3>
+</div>
+
+<div class="row">
+	<div class="col-md-8">
+		<img src="/static/images/screenshots/workouts_show_mean_max.jpg?v=0.6.3" width="1200" height="564" alt="Screenshot" class="img-responsive img-rounded">
+	</div>
+	<div class="col-md-4">
+		Oblicz swoje najlepsze wyniki z treningu wykorzystując tę analizę. Na następujące i wiele innych pytań znajdziesz odpowiedzi:<ul><li>Jaka była moja najlepsza średnia prędkość przez 30 minut?</li><li>Jakie było moje najwyższe tętno przez 60 sekund?</li><li>Jaka była moja najwyższa kadencja przez 1 godzinę?</li><li>Jaka była moja najwyższa moc przez 5 sekund i 1 godzinę (Mean Maximal Power)?</li></ul>
+	</div>
+</div>
+
+<div class="page-header">
+	<h3>Pomiary ciała</h3>
+</div>
+
+<div class="row">
+	<div class="col-md-8">
+		<img src="/static/images/screenshots/body_edit.jpg?v=0.6.3" width="1200" height="831" alt="Screenshot" class="img-responsive img-rounded">
+	</div>
+	<div class="col-md-4">
+		Rejsteruj pomiary ciała wraz ze swoimi treningami. Pomiary z wykorzystaniem produktów Withings moga być automatycznie transferowane do Velo Hero.
+	</div>
+</div>
+
+
+<div class="page-header">
+	<h3>Opcje wielu dodatkowych analiz </h3>
+</div>
+
+<div class="row">
+	<div class="col-md-6">
+		<img src="/static/images/screenshots/charts_zones.jpg?v=0.6.3" width="1200" height="803" alt="Screenshot" class="img-responsive img-rounded">
+	</div>
+	<div class="col-md-6">
+		<img src="/static/images/screenshots/charts_peaks.jpg?v=0.6.3" width="1200" height="803" alt="Screenshot" class="img-responsive img-rounded">
+	</div>
+</div>
+<div class="row">
+	<div class="col-md-12">
+		<br>
+		<span class="pull-right">
+			<a href="https://app.velohero.com/register" class="btn btn-primary">Zapisz sie bezp&#x142;atnie</a>
+		</span>
+	</div>
+</div>
+<div class="modal fade" id="userExitModal" tabindex="-1" role="dialog" aria-labelledby="userExitModalLabel">
+	<div class="modal-dialog" role="document">
+		<div class="modal-content">
+			<div class="modal-header">
+				<button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+				<h4 class="modal-title" id="userExitModalLabel">
+					Dołącz do Velo Hero, jest bezpłatne.
+				</h4>
+			</div>
+			<div class="modal-body">
+				<p>Zapisz się bezpłatnie w przeciągu 2 minut. Nie przekonany? Akceptuj bezpłatne <a href="/pro">członkostwo PRO</a> przez 45 dni jeżeli zapiszesz sie dzisiaj.</p>
+			</div>
+			<div class="modal-footer">
+				<a class="btn btn-primary" href="https://app.velohero.com/register?lang=pl&amp;unit=0" role="button">Zapisz sie bezp&#x142;atnie</a>
+			</div>
+		</div>
+	</div>
+</div>
+<script>
+var last_position = {};
+$(document).ready(function() {
+	$(document).on('mousemove', function (event) {
+		if (typeof(last_position.x) != 'undefined') {
+			var deltaX = last_position.x - event.offsetX,
+			    deltaY = last_position.y - event.offsetY;
+			if (Math.abs(deltaY) > Math.abs(deltaX) && deltaY > 0) {
+				if(event.pageY <= 5) {
+					$('#userExitModal').modal('show');
+				}
+			}
+		}
+		last_position = {
+			x : event.offsetX,
+			y : event.offsetY
+		};
+	});
+});
+</script>
+				<hr>
+<footer class="text-center text-muted">
+	<p>
+		<small>
+			<a href="https://app.velohero.com/help?lang=pl&amp;unit=0">Kontakt</a> |
+			<a href="//www.velohero.com/static/terms.pdf" target="_blank">Zasady i warunki</a> |
+			<a href="//www.velohero.com/static/privacy.pdf" target="_blank">Polityka prywatności</a> |
+			<a href="https://app.velohero.com/pro?lang=pl&amp;unit=0">Członkostwo PRO</a> |
+			<a href="https://app.velohero.com/imprint?lang=pl&amp;unit=0">O platformie</a>
+		</small>
+	</p>
+	<p>
+		<small>
+			<i class="fa vh-logo"></i>
+			Velo Hero<sup>&reg;</sup> 
+			- 
+			&copy; 2018 
+			<a href="https://www.nkn-it.de/">Nils Knieling</a>
+			-
+			All rights reserved
+		</small>
+	</p>
+</footer>
+<!-- Cookie Consent -->
+<link rel="stylesheet" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/cookieconsent2/3.1.0/cookieconsent.min.css">
+<script src="https://cdnjs.cloudflare.com/ajax/libs/cookieconsent2/3.1.0/cookieconsent.min.js"></script>
+<script>
+window.addEventListener("load", function(){
+	window.cookieconsent.initialise({
+	"palette": {
+		"popup": {
+			"background": "#fff"
+		},
+		"button": {
+			"background": "#428BCA"
+		}
+	},
+	"theme": "classic",
+	"content": {
+		"message": "Ta strona wykorzystuje ciasteczka aby dostarczać swoje usługi, do personalizacji reklam i analizy ruchu. Informacje na temat korzystania z tej witryny jest udostępniana Google. Korzystając z tej witryny zgadzasz się na wykorzystywanie ciasteczek. ",
+		"dismiss": "Mam to",
+		"link": "Więcej informacji",
+		"href": '%2F%2Fwww.velohero.com%2Fstatic%2Fprivacy.pdf'
+	},
+	"cookie": {
+		"domain": ".velohero.com"
+	}
+	})
+});
+</script>
+<!-- // Cookie Consent -->		
+		</div> <!-- // cointainer -->
+		
+		<script src="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/3.3.7/js/bootstrap.min.js"></script>
+		<script src="/static/bootstrap-table-filter/bootstrap-table.js"></script>
+		<script src="/static/bootstrap-table-filter/bootstrap-table-filter.js"></script>
+		<script src="/static/bootstrap-table-filter/bs-table.js"></script>
+		<script src="https://cdnjs.cloudflare.com/ajax/libs/bootstrap-select/1.13.2/js/bootstrap-select.min.js"></script>
+		
+		<script src="/static/javascript/body.js?v=0.6.3"></script>
+		<script src="https://app.velohero.com/javascript/body?v=0.6.3&amp;lang=pl&amp;s=dmy.0.0.0"></script>
+				<!-- Google Analytics -->
+<script>
+(function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+(i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+})(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+ga('create', 'UA-1984327-7', 'auto');
+ga('set', 'anonymizeIp', true);
+ga('send', 'pageview');
+</script>
+<!-- // Google Analytics -->		
+		
+		
+		<!-- ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ -->
+		<!-- Thank you for watching this page's source. -->
+		<!-- ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ -->
+	</body>
+</html>
