@@ -2,5 +2,6 @@
 
 User-agent: *
 Disallow: /static/
+Disallow: /help/
 
 Sitemap: https://www.velohero.com/sitemap.xml
