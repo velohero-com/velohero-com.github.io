@@ -1,7 +1,5 @@
 # robots.txt for www.velohero.com
 
 User-agent: *
-Disallow: /static/
-Disallow: /help/
+Disallow: /
 
-Sitemap: https://www.velohero.com/sitemap.xml

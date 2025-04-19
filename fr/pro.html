@@ -1,641 +1,113 @@
-<!DOCTYPE html>
+<!DOCTYPE HTML>
 <html lang="fr">
-<head>
-	<meta charset="utf-8">
-	<meta name="HandheldFriendly" content="True">
-	<meta name="MobileOptimized" content="320">
-	<meta name="viewport" content="width=device-width, initial-scale=1.0">
-	
-	<title>Acheter la Version Pro - Velo Hero</title>
-	
-	<link href="/static/favicon.ico?v=0.9.2" rel="shortcut icon">
-	<link href="/static/touchicon.png?v=0.9.2" rel="apple-touch-icon">
-	<link href="/static/icon_192px.png?v=0.9.2" rel="icon" sizes="192x192">
-	
-	<link href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/3.4.1/css/bootstrap.min.css" rel="stylesheet">
-	<link href="/static/css/default.css?v=0.9.2" rel="stylesheet">
-	<link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet">
-	<link href="/static/font/velohero/style.css?v=0.9.2" rel="stylesheet">
-	
-	<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/2.2.4/jquery.min.js"></script>
-	
-	<!--[if lt IE 9]>
-		<script src="https://cdnjs.cloudflare.com/ajax/libs/html5shiv/3.7.3/html5shiv.min.js"></script>
-		<script src="https://cdnjs.cloudflare.com/ajax/libs/respond.js/1.4.2/respond.min.js"></script>
-	<![endif]-->
-</head>
-<body>
-<div class="navbar navbar-inverse navbar-fixed-top" role="navigation"><div class="container">	<!-- Velo Hero logo -->
-	<div class="navbar-header">
-		<button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
-			<span class="sr-only">Toggle navigation</span>
-			<span class="icon-bar"></span>
-			<span class="icon-bar"></span>
-			<span class="icon-bar"></span>
-		</button>
-		<a class="navbar-brand logo" href="//www.velohero.com/fr/journal-d-entrainement.html">
-	Vel<span class="logo-spaceing">o</span><span class="logo-spaceing"><i class="fa vh-logo"></i></span>Hero
-</a>
-	</div>
-	<!-- Velo Hero logo -->
-	<div class="navbar-collapse collapse">		<p class="navbar-text visible-lg">Online since 2013</p>
-		<ul class="nav navbar-nav navbar-right">
-			<li><a href="https://www.velohero.com/fr/tour.html">Fonctionnalités</a></li>
-			<li><a href="https://app.velohero.com/register?lang=fr&amp;unit=0">S'inscrire</a></li>
-			<li><a href="https://app.velohero.com/login?lang=fr&amp;unit=0"><i class="fa fa-sign-in"></i> Se connecter</a></li>
-			<li class="dropdown">
-				<a href="#" class="dropdown-toggle" data-toggle="dropdown"><i class="fa fa-globe"></i> Langue <b class="caret"></b></a>
-				 <ul class="dropdown-menu">
-	<li><a href="//www.velohero.com/"><i class="fa fa-square-o fa-fw"></i> <img src="/static/images/icons/flags/gb.png" width="16" height="16" alt="Flag icon: GB" title="GB"> English / Anglais</a></li>
-	<li><a href="//www.velohero.com/es/diario-de-entrenamiento.html"><i class="fa fa-square-o fa-fw"></i> <img src="/static/images/icons/flags/es.png" width="16" height="16" alt="Flag icon: ES" title="ES"> Español / Espagnol</a></li>
-	<li><a href="//www.velohero.com/de/trainingstagebuch.html"><i class="fa fa-square-o fa-fw"></i> <img src="/static/images/icons/flags/de.png" width="16" height="16" alt="Flag icon: DE" title="DE"> Deutsch / Allemand</a></li>
-	<li><a href="//www.velohero.com/it/diario-di-allenamento.html"><i class="fa fa-square-o fa-fw"></i> <img src="/static/images/icons/flags/it.png" width="16" height="16" alt="Flag icon: IT" title="IT"> Italiano / Italien</a></li>
-	<li><a href="//www.velohero.com/nl/trainingslogboek.html"><i class="fa fa-square-o fa-fw"></i> <img src="/static/images/icons/flags/nl.png" width="16" height="16" alt="Flag icon: NL" title="NL"> Nederlands / Néerlandais</a></li>
-	<li><a href="//www.velohero.com/fr/journal-d-entrainement.html"><i class="fa fa-check-square-o fa-fw"></i> <img src="/static/images/icons/flags/fr.png" width="16" height="16" alt="Flag icon: FR" title="FR"> Français</a></li>
-	<li><a href="//www.velohero.com/pt-br/software-de-registro-de-treinamento.html"><i class="fa fa-square-o fa-fw"></i> <img src="/static/images/icons/flags/br.png" width="16" height="16" alt="Flag icon: BR" title="BR"> Português brasileiro / Portugais brésilien</a></li>
-	<li><a href="//www.velohero.com/pl/dziennika-treningowego.html"><i class="fa fa-square-o fa-fw"></i> <img src="/static/images/icons/flags/pl.png" width="16" height="16" alt="Flag icon: PL" title="PL"> Polski / Polonais</a></li>
-	<li><a href="//www.velohero.com/hu/edzesnaplo.html"><i class="fa fa-square-o fa-fw"></i> <img src="/static/images/icons/flags/hu.png" width="16" height="16" alt="Flag icon: HU" title="HU"> Magyar / Hongrois</a></li>
-	<li><a href="//www.velohero.com/zh-cn/trainingdiary.html"><i class="fa fa-square-o fa-fw"></i> <img src="/static/images/icons/flags/cn.png" width="16" height="16" alt="Flag icon: CN" title="CN"> 簡體字 / Chinois simplifié</a></li>
-</ul>
-			</li>
-		</ul>	</div> <!-- // navbar-collapse -->
-</div> <!-- // container -->
-</div> <!-- // navigation -->
-<div class="container">
-<div class="navbar navbar-inverse navbar-fixed-top" role="navigation"><div class="container">	<!-- Velo Hero logo -->
-	<div class="navbar-header">
-		<button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
-			<span class="sr-only">Toggle navigation</span>
-			<span class="icon-bar"></span>
-			<span class="icon-bar"></span>
-			<span class="icon-bar"></span>
-		</button>
-		<a class="navbar-brand logo" href="//www.velohero.com/fr/journal-d-entrainement.html">
-	Vel<span class="logo-spaceing">o</span><span class="logo-spaceing"><i class="fa vh-logo"></i></span>Hero
-</a>
-	</div>
-	<!-- Velo Hero logo -->
-	<div class="navbar-collapse collapse">		<p class="navbar-text visible-lg">Online since 2013</p>
-		<ul class="nav navbar-nav navbar-right">
-			<li><a href="https://www.velohero.com/fr/tour.html">Fonctionnalités</a></li>
-			<li><a href="https://app.velohero.com/register?lang=fr&amp;unit=0">S'inscrire</a></li>
-			<li><a href="https://app.velohero.com/login?lang=fr&amp;unit=0"><i class="fa fa-sign-in"></i> Se connecter</a></li>
-			<li class="dropdown">
-				<a href="#" class="dropdown-toggle" data-toggle="dropdown"><i class="fa fa-globe"></i> Langue <b class="caret"></b></a>
-				 <ul class="dropdown-menu">
-	<li><a href="//www.velohero.com/"><i class="fa fa-square-o fa-fw"></i> <img src="/static/images/icons/flags/gb.png" width="16" height="16" alt="Flag icon: GB" title="GB"> English / Anglais</a></li>
-	<li><a href="//www.velohero.com/es/diario-de-entrenamiento.html"><i class="fa fa-square-o fa-fw"></i> <img src="/static/images/icons/flags/es.png" width="16" height="16" alt="Flag icon: ES" title="ES"> Español / Espagnol</a></li>
-	<li><a href="//www.velohero.com/de/trainingstagebuch.html"><i class="fa fa-square-o fa-fw"></i> <img src="/static/images/icons/flags/de.png" width="16" height="16" alt="Flag icon: DE" title="DE"> Deutsch / Allemand</a></li>
-	<li><a href="//www.velohero.com/it/diario-di-allenamento.html"><i class="fa fa-square-o fa-fw"></i> <img src="/static/images/icons/flags/it.png" width="16" height="16" alt="Flag icon: IT" title="IT"> Italiano / Italien</a></li>
-	<li><a href="//www.velohero.com/nl/trainingslogboek.html"><i class="fa fa-square-o fa-fw"></i> <img src="/static/images/icons/flags/nl.png" width="16" height="16" alt="Flag icon: NL" title="NL"> Nederlands / Néerlandais</a></li>
-	<li><a href="//www.velohero.com/fr/journal-d-entrainement.html"><i class="fa fa-check-square-o fa-fw"></i> <img src="/static/images/icons/flags/fr.png" width="16" height="16" alt="Flag icon: FR" title="FR"> Français</a></li>
-	<li><a href="//www.velohero.com/pt-br/software-de-registro-de-treinamento.html"><i class="fa fa-square-o fa-fw"></i> <img src="/static/images/icons/flags/br.png" width="16" height="16" alt="Flag icon: BR" title="BR"> Português brasileiro / Portugais brésilien</a></li>
-	<li><a href="//www.velohero.com/pl/dziennika-treningowego.html"><i class="fa fa-square-o fa-fw"></i> <img src="/static/images/icons/flags/pl.png" width="16" height="16" alt="Flag icon: PL" title="PL"> Polski / Polonais</a></li>
-	<li><a href="//www.velohero.com/hu/edzesnaplo.html"><i class="fa fa-square-o fa-fw"></i> <img src="/static/images/icons/flags/hu.png" width="16" height="16" alt="Flag icon: HU" title="HU"> Magyar / Hongrois</a></li>
-	<li><a href="//www.velohero.com/zh-cn/trainingdiary.html"><i class="fa fa-square-o fa-fw"></i> <img src="/static/images/icons/flags/cn.png" width="16" height="16" alt="Flag icon: CN" title="CN"> 簡體字 / Chinois simplifié</a></li>
-</ul>
-			</li>
-		</ul>	</div> <!-- // navbar-collapse -->
-</div> <!-- // container -->
-</div> <!-- // navigation --><div class="page-header">
-	<h1>
-		Acheter la Version Pro		<span class="pull-right hidden-xs hidden-sm">
-			<a href="https://app.velohero.com/register?lang=fr&amp;unit=0" class="btn btn-primary">S&#39;inscrire gratuitement</a>
-		</span>	</h1>
-</div>
-<p class="hidden-md hidden-lg">
-	<a href="https://app.velohero.com/register?lang=fr&amp;unit=0" class="btn btn-primary">S&#39;inscrire gratuitement</a>
-</p>
-<div class="row">
-	<div class="col-sm-12">
-		<blockquote>
-			<div class="row">
-				<div class="col-sm-2 text-center">
-					<img src="/static/images/ich_300x300.jpg?v=0.9.2" alt="" class="img-circle img-responsive hidden-xs" width="300" height="300">
-				</div>
-				<div class="col-sm-10">
-					<p>Velo Hero est un projet personnel. Je ne reçois pas de soutien d'entreprise et je ne vendrai pas vos données. Je dépends vos abonnements pour payer les frais d'hébergement. Sans votre soutien, ce projet ne peut pas exister.</p>
-					<footer>Nils Knieling, fondateur de Velo Hero</footer>
-				</div>
-			</div>
-		</blockquote>
-	</div>
-</div>
-
-<div class="row">
-	<div class="col-md-5 col-md-offset-3">
-		<div class="panel panel-primary">
-			<div class="panel-heading">
-				<h3 class="panel-title">S'abonner à la Version Pro</h3>
-			</div>
-			<div class="panel-body text-center">
-				<p>
-					S'abonner à la Version Pro pour seulement
-				</p>
-				<div class="the-price">
-					
-					<h1>
-						€ 25
-						<span class="subscript">
-							/ Année
-							<small class="text-muted">(hors taxes / HT)</small>
-						</span>
-					</h1>
-					
-				</div>
-			</div>
-			<ul class="list-group list-group-flush text-center">
-				<li class="list-group-item">Aucun abonnement</li>
-				<li class="list-group-item">Encore davantage d'options pour vos analyses</li>
-				<li class="list-group-item">Jusqu'à 12 plages de fréquence cardiaque et de puissance par sport et par période</li>
-				<li class="list-group-item">💖 L'agréable sensation de soutenir ce projet</li>
-			</ul>
-			<div class="panel-footer text-center">
-				<a href="https://app.velohero.com/buy" class="btn btn-success btn-lg btn-block" role="button">
-					<i class="fa fa-shopping-cart"></i>
-					Se connecter
-				</a>
+	<head>
+		<meta charset="utf-8">
+		<meta name="author" content="Velo Hero">
+		<meta name="HandheldFriendly" content="True">
+		<meta name="MobileOptimized" content="320">
+		<meta name="viewport" content="width=device-width, initial-scale=1.0">
+		<meta name="apple-mobile-web-app-status-bar-style" content="black">
+		<meta name="apple-mobile-web-app-title" content="Velo Hero">
+		<meta name="apple-mobile-web-app-capable" content="no">
+		<meta name="mobile-web-app-capable" content="yes">
+		<meta name="theme-color" content="#428bca">
+		<meta name="robots" content="noindex, nofollow, noarchive">
+		
+		<title>Shutdown on May 1, 2026 - Velo Hero</title>
+		
+		<link href="https://app.velohero.com/static/favicon.ico?v=0.9.2" rel="shortcut icon">
+		<link href="https://app.velohero.com/static/touchicon.png?v=0.9.2" rel="apple-touch-icon">
+		<link href="https://app.velohero.com/static/icon_192px.png?v=0.9.2" rel="icon" sizes="192x192">
+		<link href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/3.4.1/css/bootstrap.min.css" rel="stylesheet">
+		<link href="https://app.velohero.com/static/bootstrap-table-filter/bootstrap-table-filter.css" rel="stylesheet">
+		<link href="https://app.velohero.com/static/bootstrap-table/1.7.0/bootstrap-table.min.css" rel="stylesheet">
+		<link href="https://cdnjs.cloudflare.com/ajax/libs/fullcalendar/3.9.0/fullcalendar.min.css" rel="stylesheet">
+		<link href="https://cdnjs.cloudflare.com/ajax/libs/fullcalendar/3.9.0/fullcalendar.print.css" rel="stylesheet" media="print">
+		<link href="https://cdnjs.cloudflare.com/ajax/libs/jqueryui/1.12.1/jquery-ui.min.css" rel="stylesheet">
+		<link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet">
+		<link href="https://app.velohero.com/static/font/velohero/style.css?v=0.9.2" rel="stylesheet">
+		<link href="https://cdnjs.cloudflare.com/ajax/libs/bootstrap-datepicker/1.10.0/css/bootstrap-datepicker.min.css" rel="stylesheet">
+		<link href="https://app.velohero.com/static/bootstrap-timepicker/0.5.2/bootstrap-timepicker.min.css" rel="stylesheet">
+		<link href="https://app.velohero.com/static/bootstrap-select/1.13.18/bootstrap-select.min.css" rel="stylesheet">
+		<link href="https://app.velohero.com/static/css/default.css?v=0.9.2" rel="stylesheet">
+		
+		<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/2.2.4/jquery.min.js"></script>
+		<script src="https://cdnjs.cloudflare.com/ajax/libs/jqueryui/1.12.1/jquery-ui.min.js"></script>
+		<script src="https://cdnjs.cloudflare.com/ajax/libs/moment.js/2.22.2/moment.min.js"></script>
+		<script src="https://cdnjs.cloudflare.com/ajax/libs/fullcalendar/3.9.0/fullcalendar.min.js"></script>
+		<script src="https://cdnjs.cloudflare.com/ajax/libs/bootstrap-datepicker/1.10.0/js/bootstrap-datepicker.min.js"></script>
+		<script src="https://app.velohero.com/static/bootstrap-timepicker/0.5.2/bootstrap-timepicker.min.js"></script>
+		<script src="https://cdnjs.cloudflare.com/ajax/libs/bootstrap-datepicker/1.10.0/locales/bootstrap-datepicker.fr.min.js"></script>
+		
+		<script src="https://app.velohero.com/static/javascript/head.js?v=0.9.2"></script>
+		<script src="https://app.velohero.com/static/amcharts/amcharts.js?v3.18.6"></script>
+		<script src="https://app.velohero.com/static/amcharts/serial.js?v3.18.6"></script>
+		<script src="https://app.velohero.com/static/amcharts/pie.js?v3.18.6"></script>
+		<script src="https://app.velohero.com/static/countdown/jquery.countdown.min.js?v=0.9.2"></script>
 				
-			</div>
-		</div>
+		<!--[if lt IE 9]>
+			<script src="https://cdnjs.cloudflare.com/ajax/libs/html5shiv/3.7.3/html5shiv.min.js"></script>
+			<script src="https://cdnjs.cloudflare.com/ajax/libs/respond.js/1.4.2/respond.min.js"></script>
+		<![endif]-->
+				
+		<script src="https://app.velohero.com/javascript/head?v=0.9.2&amp;lang=fr&amp;s=dmy.0.0.0"></script>
+	</head>
+	<body >
+		<div class="navbar navbar-inverse navbar-fixed-top" role="navigation"><div class="container">	<!-- Velo Hero logo -->
+	<div class="navbar-header">
+		<button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
+			<span class="sr-only">Toggle navigation</span>
+			<span class="icon-bar"></span>
+			<span class="icon-bar"></span>
+			<span class="icon-bar"></span>
+		</button>
+		<a class="navbar-brand logo" href="//www.velohero.com/fr/journal-d-entrainement.html">
+	Vel<span class="logo-spaceing">o</span><span class="logo-spaceing"><i class="fa vh-logo"></i></span>Hero
+</a>
 	</div>
+	<!-- Velo Hero logo -->
+	<div class="navbar-collapse collapse">		<p class="navbar-text visible-lg">Online since 2013</p>
+		<ul class="nav navbar-nav navbar-right">
+			<li><a href="https://app.velohero.com/login?lang=fr&amp;unit=0"><i class="fa fa-sign-in"></i> Se connecter</a></li>
+			<li class="dropdown">
+				<a href="#" class="dropdown-toggle" data-toggle="dropdown"><i class="fa fa-globe"></i> Langue <b class="caret"></b></a>
+				 <ul class="dropdown-menu">
+	<li><a href="//www.velohero.com/"><i class="fa fa-square-o fa-fw"></i> <img src="https://app.velohero.com/static/images/icons/flags/gb.png" width="16" height="16" alt="Flag icon: GB" title="GB"> English / Anglais</a></li>
+	<li><a href="//www.velohero.com/es/diario-de-entrenamiento.html"><i class="fa fa-square-o fa-fw"></i> <img src="https://app.velohero.com/static/images/icons/flags/es.png" width="16" height="16" alt="Flag icon: ES" title="ES"> Español / Espagnol</a></li>
+	<li><a href="//www.velohero.com/de/trainingstagebuch.html"><i class="fa fa-square-o fa-fw"></i> <img src="https://app.velohero.com/static/images/icons/flags/de.png" width="16" height="16" alt="Flag icon: DE" title="DE"> Deutsch / Allemand</a></li>
+	<li><a href="//www.velohero.com/it/diario-di-allenamento.html"><i class="fa fa-square-o fa-fw"></i> <img src="https://app.velohero.com/static/images/icons/flags/it.png" width="16" height="16" alt="Flag icon: IT" title="IT"> Italiano / Italien</a></li>
+	<li><a href="//www.velohero.com/nl/trainingslogboek.html"><i class="fa fa-square-o fa-fw"></i> <img src="https://app.velohero.com/static/images/icons/flags/nl.png" width="16" height="16" alt="Flag icon: NL" title="NL"> Nederlands / Néerlandais</a></li>
+	<li><a href="//www.velohero.com/fr/journal-d-entrainement.html"><i class="fa fa-check-square-o fa-fw"></i> <img src="https://app.velohero.com/static/images/icons/flags/fr.png" width="16" height="16" alt="Flag icon: FR" title="FR"> Français</a></li>
+	<li><a href="//www.velohero.com/pt-br/software-de-registro-de-treinamento.html"><i class="fa fa-square-o fa-fw"></i> <img src="https://app.velohero.com/static/images/icons/flags/br.png" width="16" height="16" alt="Flag icon: BR" title="BR"> Português brasileiro / Portugais brésilien</a></li>
+	<li><a href="//www.velohero.com/pl/dziennika-treningowego.html"><i class="fa fa-square-o fa-fw"></i> <img src="https://app.velohero.com/static/images/icons/flags/pl.png" width="16" height="16" alt="Flag icon: PL" title="PL"> Polski / Polonais</a></li>
+	<li><a href="//www.velohero.com/hu/edzesnaplo.html"><i class="fa fa-square-o fa-fw"></i> <img src="https://app.velohero.com/static/images/icons/flags/hu.png" width="16" height="16" alt="Flag icon: HU" title="HU"> Magyar / Hongrois</a></li>
+	<li><a href="//www.velohero.com/zh-cn/trainingdiary.html"><i class="fa fa-square-o fa-fw"></i> <img src="https://app.velohero.com/static/images/icons/flags/cn.png" width="16" height="16" alt="Flag icon: CN" title="CN"> 簡體字 / Chinois simplifié</a></li>
+</ul>
+			</li>
+		</ul>	</div> <!-- // navbar-collapse -->
+</div> <!-- // container -->
+</div> <!-- // navigation -->		
+		<div class="container">
+				
+		<div class="page-header">
+	<h1>Shutdown on May 1, 2026</h1>
 </div>
-
-<div class="page-header">
-	<h2>
-		Détail des fonctionnalités
-	</h2>
-</div>
-
-<div class="row">
-	<div class="col-md-6">
-		<!-- Publicité -->
+<br><br>
+<p>It is no longer possible to purchase new Pro Memberships.</p>
 
 
-<table class="table table-striped">
-<thead>
-	<tr>
-		<th>&nbsp;</th>
-		<th>
-			FREE
-		</th>
-		<th>			PRO		</th>
-	</tr>
-</thead>
-<tbody><tr>
-	<th>
-		Publicité
-		
-		
-		
-		
-		
-		
-	</th>
-	<td><i class="fa fa-check-square-o fa-2x"></i></td>
-	<td><i class="fa fa-square-o fa-2x"></i></td>
-</tr><tr>
-	<th>
-		Importer un Fichier
-		
-		
-		
-		
-		
-		
-	</th>
-	<td><i class="fa fa-square-o fa-2x"></i></td>
-	<td><i class="fa fa-check-square-o fa-2x"></i></td>
-</tr><tr>
-	<th>
-		Smoothed Power
-		
-		<a href="https://www.velohero.com/help/glossary.html#smoothed-power" class="text-top-tooltip" target="_blank"><i class="fa fa-question-circle" title="Aide" data-toggle="tooltip"></i></a>
-		
-		
-		
-		
-	</th>
-	<td><i class="fa fa-square-o fa-2x"></i></td>
-	<td><i class="fa fa-check-square-o fa-2x"></i></td>
-</tr><tr>
-	<th>
-		Velo Hero Level
-		
-		
-		<a href="https://www.velohero.com/help/glossary.html#velo-hero-level" class="text-top-tooltip" target="_blank"><i class="fa fa-question-circle" title="Aide" data-toggle="tooltip"></i></a>
-		
-		
-		
-	</th>
-	<td><i class="fa fa-square-o fa-2x"></i></td>
-	<td><i class="fa fa-check-square-o fa-2x"></i></td>
-</tr><tr>
-	<th>
-		Velo Hero Points
-		
-		
-		
-		<a href="https://www.velohero.com/help/glossary.html#velo-hero-points" class="text-top-tooltip" target="_blank"><i class="fa fa-question-circle" title="Aide" data-toggle="tooltip"></i></a>
-		
-		
-	</th>
-	<td><i class="fa fa-square-o fa-2x"></i></td>
-	<td><i class="fa fa-check-square-o fa-2x"></i></td>
-</tr><tr>
-	<th>
-		Velocità Ascensionale Media (VAM)
-		
-		
-		
-		
-		
-		<a href="https://www.velohero.com/help/glossary.html#velocita-ascensionale-media-vam" class="text-top-tooltip" target="_blank"><i class="fa fa-question-circle" title="Aide" data-toggle="tooltip"></i></a>
-	</th>
-	<td><i class="fa fa-square-o fa-2x"></i></td>
-	<td><i class="fa fa-check-square-o fa-2x"></i></td>
-</tr><tr>
-	<th>
-		Puissance/Poids
-		
-		
-		
-		
-		
-		
-	</th>
-	<td><i class="fa fa-square-o fa-2x"></i></td>
-	<td><i class="fa fa-check-square-o fa-2x"></i></td>
-</tr><tr>
-	<th>
-		Calcul du seuil automatique (FTP)
-		<a href="https://www.velohero.com/help/glossary.html#functional-threshold-power-ftp" class="text-top-tooltip" target="_blank"><i class="fa fa-question-circle" title="Aide" data-toggle="tooltip"></i></a>
-		
-		
-		
-		
-		
-	</th>
-	<td><i class="fa fa-square-o fa-2x"></i></td>
-	<td><i class="fa fa-check-square-o fa-2x"></i></td>
-</tr><tr>
-	<th>
-		Temps en mouvement
-		
-		
-		
-		
-		
-		
-	</th>
-	<td><i class="fa fa-square-o fa-2x"></i></td>
-	<td><i class="fa fa-check-square-o fa-2x"></i></td>
-</tr><tr>
-	<th>
-		Temps avec cadence
-		
-		
-		
-		
-		
-		
-	</th>
-	<td><i class="fa fa-square-o fa-2x"></i></td>
-	<td><i class="fa fa-check-square-o fa-2x"></i></td>
-</tr><tr>
-	<th>
-		Temps avec puissance
-		
-		
-		
-		
-		
-		
-	</th>
-	<td><i class="fa fa-square-o fa-2x"></i></td>
-	<td><i class="fa fa-check-square-o fa-2x"></i></td>
-</tr><tr>
-	<th>
-		TRaining IMPulse (TRIMP)
-		
-		
-		
-		
-		<a href="https://www.velohero.com/help/glossary.html#training-impulse-trimp" class="text-top-tooltip" target="_blank"><i class="fa fa-question-circle" title="Aide" data-toggle="tooltip"></i></a>
-		
-	</th>
-	<td><i class="fa fa-square-o fa-2x"></i></td>
-	<td><i class="fa fa-check-square-o fa-2x"></i></td>
-</tr><tr>
-	<th>
-		Temps dans les plages de fréquence cardiaque
-		
-		
-		
-		
-		
-		
-	</th>
-	<td><i class="fa fa-square-o fa-2x"></i></td>
-	<td><i class="fa fa-check-square-o fa-2x"></i></td>
-</tr><tr>
-	<th>
-		Temps dans les plages de puissance
-		
-		
-		
-		
-		
-		
-	</th>
-	<td><i class="fa fa-square-o fa-2x"></i></td>
-	<td><i class="fa fa-check-square-o fa-2x"></i></td>
-</tr><tr>
-	<th>
-		Vitesse maximale moyennée
-		
-		
-		
-		
-		
-		
-	</th>
-	<td><i class="fa fa-square-o fa-2x"></i></td>
-	<td><i class="fa fa-check-square-o fa-2x"></i></td>
-</tr><tr>
-	<th>
-		Allure maximale moyennée
-		
-		
-		
-		
-		
-		
-	</th>
-	<td><i class="fa fa-square-o fa-2x"></i></td>
-	<td><i class="fa fa-check-square-o fa-2x"></i></td>
-</tr><tr>
-	<th>
-		Fréquence cardiaque maximale moyennée
-		
-		
-		
-		
-		
-		
-	</th>
-	<td><i class="fa fa-square-o fa-2x"></i></td>
-	<td><i class="fa fa-check-square-o fa-2x"></i></td>
-</tr><tr>
-	<th>
-		Cadence maximale moyennée
-		
-		
-		
-		
-		
-		
-	</th>
-	<td><i class="fa fa-square-o fa-2x"></i></td>
-	<td><i class="fa fa-check-square-o fa-2x"></i></td>
-</tr><tr>
-	<th>
-		Puissance maximale moyennée
-		
-		
-		
-		
-		
-		
-	</th>
-	<td><i class="fa fa-square-o fa-2x"></i></td>
-	<td><i class="fa fa-check-square-o fa-2x"></i></td>
-</tr><tr>
-	<th>
-		Temps
-		
-		
-		
-		
-		
-		
-	</th>
-	<td><i class="fa fa-check-square-o fa-2x"></i></td>
-	<td><i class="fa fa-check-square-o fa-2x"></i></td>
-</tr><tr>
-	<th>
-		Distance
-		
-		
-		
-		
-		
-		
-	</th>
-	<td><i class="fa fa-check-square-o fa-2x"></i></td>
-	<td><i class="fa fa-check-square-o fa-2x"></i></td>
-</tr><tr>
-	<th>
-		Gain d'altitude
-		
-		
-		
-		
-		
-		
-	</th>
-	<td><i class="fa fa-check-square-o fa-2x"></i></td>
-	<td><i class="fa fa-check-square-o fa-2x"></i></td>
-</tr><tr>
-	<th>
-		Perte d'altitude
-		
-		
-		
-		
-		
-		
-	</th>
-	<td><i class="fa fa-check-square-o fa-2x"></i></td>
-	<td><i class="fa fa-check-square-o fa-2x"></i></td>
-</tr><tr>
-	<th>
-		Altitude
-		
-		
-		
-		
-		
-		
-	</th>
-	<td><i class="fa fa-check-square-o fa-2x"></i></td>
-	<td><i class="fa fa-check-square-o fa-2x"></i></td>
-</tr><tr>
-	<th>
-		Vitesse
-		
-		
-		
-		
-		
-		
-	</th>
-	<td><i class="fa fa-check-square-o fa-2x"></i></td>
-	<td><i class="fa fa-check-square-o fa-2x"></i></td>
-</tr><tr>
-	<th>
-		Allure
-		
-		
-		
-		
-		
-		
-	</th>
-	<td><i class="fa fa-check-square-o fa-2x"></i></td>
-	<td><i class="fa fa-check-square-o fa-2x"></i></td>
-</tr><tr>
-	<th>
-		Fréquence cardiaque
-		
-		
-		
-		
-		
-		
-	</th>
-	<td><i class="fa fa-check-square-o fa-2x"></i></td>
-	<td><i class="fa fa-check-square-o fa-2x"></i></td>
-</tr><tr>
-	<th>
-		Cadence
-		
-		
-		
-		
-		
-		
-	</th>
-	<td><i class="fa fa-check-square-o fa-2x"></i></td>
-	<td><i class="fa fa-check-square-o fa-2x"></i></td>
-</tr><tr>
-	<th>
-		Puissance
-		
-		
-		
-		
-		
-		
-	</th>
-	<td><i class="fa fa-check-square-o fa-2x"></i></td>
-	<td><i class="fa fa-check-square-o fa-2x"></i></td>
-</tr><tr>
-	<th>
-		Calories
-		
-		
-		
-		
-		
-		
-	</th>
-	<td><i class="fa fa-check-square-o fa-2x"></i></td>
-	<td><i class="fa fa-check-square-o fa-2x"></i></td>
-</tr><tr>
-	<th>
-		Poids
-		
-		
-		
-		
-		
-		
-	</th>
-	<td><i class="fa fa-check-square-o fa-2x"></i></td>
-	<td><i class="fa fa-check-square-o fa-2x"></i></td>
-</tr><tr>
-	<th>
-		Matériel
-		
-		
-		
-		
-		
-		
-	</th>
-	<td><i class="fa fa-check-square-o fa-2x"></i></td>
-	<td><i class="fa fa-check-square-o fa-2x"></i></td>
-</tr><tr>
-	<th>
-		Temps par sport
-		
-		
-		
-		
-		
-		
-	</th>
-	<td><i class="fa fa-check-square-o fa-2x"></i></td>
-	<td><i class="fa fa-check-square-o fa-2x"></i></td>
-</tr><tr>
-	<th>
-		Distance par sport
-		
-		
-		
-		
-		
-		
-	</th>
-	<td><i class="fa fa-check-square-o fa-2x"></i></td>
-	<td><i class="fa fa-check-square-o fa-2x"></i></td>
-</tr><tr>
-	<th>
-		Temps par type d'entrainement
-		
-		
-		
-		
-		
-		
-	</th>
-	<td><i class="fa fa-check-square-o fa-2x"></i></td>
-	<td><i class="fa fa-check-square-o fa-2x"></i></td>
-</tr><tr>
-	<th>
-		Distance par type d'entrainement
-		
-		
-		
-		
-		
-		
-	</th>
-	<td><i class="fa fa-check-square-o fa-2x"></i></td>
-	<td><i class="fa fa-check-square-o fa-2x"></i></td>
-</tr></tbody>
-</table>
-		<hr>
-	</div>
-	<div class="col-md-6">
-		<img src="/static/images/pro_features.jpg?v=0.9.2" alt="" class="img-thumbnail img-responsive" width="492" height="2003">
-	</div>
-</div>
 <br>
-
-<p>
-	<a href="https://app.velohero.com/register?lang=fr&amp;unit=0" class="btn btn-primary">S&#39;inscrire gratuitement</a>
-</p>
-<hr>
+<p><a class="btn btn-primary" href="https://app.velohero.com/frontpage">More Details...</a></p>
+<br>
+				<hr>
 <footer class="text-center text-muted">
 	<p>
 		<small>
-			<a href="https://app.velohero.com/help?lang=fr&amp;unit=0">Contact</a> |
+			<a href="https://app.velohero.com/frontpage?lang=fr&amp;unit=0">Shutdown on May 1, 2026</a> |
 			<a href="https://www.velohero.com/static/terms.pdf" target="_blank">Conditions générales</a> |
 			<a href="https://www.velohero.com/static/privacy.pdf" target="_blank">Politique de confidentialité</a> |
-			<a href="https://www.velohero.com/fr/pro.html">S'abonner à la Version Pro</a> |
-			<a href="https://app.velohero.com/imprint?lang=fr&amp;unit=0">À propos de ce site</a>
+			<a href="https://app.velohero.com/imprint?lang=fr&amp;unit=0">À propos de ce site</a> |
+			<a href="https://app.velohero.com/help?lang=fr&amp;unit=0">Contact</a>
 		</small>
 	</p>
 	<p>
@@ -643,8 +115,8 @@
 			<i class="fa vh-logo"></i>
 			Velo Hero<sup>&reg;</sup> 
 			- 
-			&copy; 2024 
-			<a href="https://www.nkn-it.de/">Nils Knieling</a>
+			&copy; 2025 
+			Nils Knieling
 			-
 			All rights reserved
 		</small>
@@ -677,98 +149,21 @@ window.addEventListener("load", function(){
 	})
 });
 </script>
-<!-- // Cookie Consent -->
-</div> <!-- // container -->
+<!-- // Cookie Consent -->		
+		</div> <!-- // cointainer -->
+		
+		<script src="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/3.4.1/js/bootstrap.min.js"></script>
+		<script src="https://app.velohero.com/static/bootstrap-table-filter/bootstrap-table.js"></script>
+		<script src="https://app.velohero.com/static/bootstrap-table-filter/bootstrap-table-filter.js"></script>
+		<script src="https://app.velohero.com/static/bootstrap-table-filter/bs-table.js"></script>
+		<script src="https://app.velohero.com/static/bootstrap-select/1.13.18/bootstrap-select.min.js"></script>
+		
+		<script src="https://app.velohero.com/static/javascript/body.js?v=0.9.2"></script>
+		<script src="https://app.velohero.com/javascript/body?v=0.9.2&amp;lang=fr&amp;s=dmy.0.0.0"></script>
+		
 
-<script src="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/3.4.1/js/bootstrap.min.js"></script>
-
-<script>
-	var userLang = navigator.language || navigator.userLanguage;
-		if ( userLang.match(/^en/) ) {
-		$('#frontpage-lang-text').html( '<img src="/static/images/icons/flags/gb.png" width="16" height="16" alt="Flag icon: GB" title="GB"> '+
-		'Do you speak English? Velo Hero is also available in English. '+
-		'<a href="//www.velohero.com/">Change language.</a>' );
-		$('#frontpage-lang').removeClass('hidden');
-	}		if ( userLang.match(/^es/) ) {
-		$('#frontpage-lang-text').html( '<img src="/static/images/icons/flags/es.png" width="16" height="16" alt="Flag icon: ES" title="ES"> '+
-		'¿Habla usted español? <i>Do you speak Spanish?</i> Velo Hero también está disponible en español. '+
-		'<a href="//www.velohero.com/es/diario-de-entrenamiento.html">Cambiar idioma.</a>' );
-		$('#frontpage-lang').removeClass('hidden');
-	}	if ( userLang.match(/^de/) ) {
-		$('#frontpage-lang-text').html( '<img src="/static/images/icons/flags/de.png" width="16" height="16" alt="Flag icon: DE" title="DE"> '+
-		'Sprechen Sie Deutsch? <i>Do you speak German?</i> Velo Hero gibt es auch in Deutsch. '+
-		'<a href="//www.velohero.com/de/trainingstagebuch.html">Sprache wechseln.</a>' );
-		$('#frontpage-lang').removeClass('hidden');
-	}	if ( userLang.match(/^it/) ) {
-		$('#frontpage-lang-text').html( '<img src="/static/images/icons/flags/it.png" width="16" height="16" alt="Flag icon: IT" title="IT"> '+
-		'Parli Italiano? <i>Do you speak Italian?</i> Velo Hero è disponibile anche in italiano. '+
-		'<a href="//www.velohero.com/it/diario-di-allenamento.html">Cambia lingua.</a>' );
-		$('#frontpage-lang').removeClass('hidden');
-	}	if ( userLang.match(/^hu/) ) {
-		$('#frontpage-lang-text').html( '<img src="/static/images/icons/flags/hu.png" width="16" height="16" alt="Flag icon: HU" title="HU"> '+
-		'Beszélsz magyarul? <i>Do you speak Hungarian?</i> Velo Hero is elérhető magyarul. '+
-		'<a href="//www.velohero.com/hu/edzesnaplo.html">Nyelv módosítása.</a>' );
-		$('#frontpage-lang').removeClass('hidden');
-	}	if ( userLang.match(/^pl/) ) {
-		$('#frontpage-lang-text').html( '<img src="/static/images/icons/flags/pl.png" width="16" height="16" alt="Flag icon: PL" title="PL"> '+
-		'Czy mówisz po polsku? <i>Do you speak Polish?</i> Velo Hero jest również dostępna w języku angielskim. '+
-		'<a href="//www.velohero.com/pl/dziennika-treningowego.html">Zmień język.</a>' );
-		$('#frontpage-lang').removeClass('hidden');
-	}	if ( userLang.match(/^nl/) ) {
-		$('#frontpage-lang-text').html( '<img src="/static/images/icons/flags/nl.png" width="16" height="16" alt="Flag icon: NL" title="NL"> '+
-		'Spreek je Nederlands? <i>Do you speak Dutch?</i> Velo Hero is ook beschikbaar in het Nederlands. '+
-		'<a href="//www.velohero.com/nl/trainingslogboek.html">Wijzig taal.</a>' );
-		$('#frontpage-lang').removeClass('hidden');
-	}	if ( userLang.match(/^zh/) ) {
-		$('#frontpage-lang-text').html( '<img src="/static/images/icons/flags/cn.png" width="16" height="16" alt="Flag icon: CN" title="CN"> '+
-		'你会说中国人吗？ <i>Do you speak Chinese?</i> 腭英雄也有英文。 '+
-		'<a href="//www.velohero.com/zh-cn/trainingdiary.html">改变语言</a>' );
-		$('#frontpage-lang').removeClass('hidden');
-	}	if ( userLang.match(/^pt-br/i) ) {
-		$('#frontpage-lang-text').html( '<img src="/static/images/icons/flags/br.png" width="16" height="16" alt="Flag icon: BR" title="BR"> '+
-		'Você fala Português do Brasil? <i>Do you speak Brazilian Portuguese?</i> Velo Hero também está disponível em Português do Brasil. '+
-		'<a href="//www.velohero.com/pt-br/software-de-registro-de-treinamento.html">Alterar idioma.</a>' );
-		$('#frontpage-lang').removeClass('hidden');
-	}</script>
-
-<div class="modal fade" id="userExitModal" tabindex="-1" role="dialog" aria-labelledby="userExitModalLabel">
-	<div class="modal-dialog" role="document">
-		<div class="modal-content">
-			<div class="modal-header">
-				<button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
-				<h4 class="modal-title" id="userExitModalLabel">
-					Rejoignez Velo Hero aujourd'hui, gratuitement.
-				</h4>
-			</div>
-			<div class="modal-body">
-				<p>Inscrivez vous gratuitement en quelques minutes. Pas convaincu ? Si vous vous inscrivez aujourd'hui, la <a href="https://app.velohero.com/pro">Version Pro</a> est offerte pendant 45 jours.</p>
-			</div>
-			<div class="modal-footer">
-				<a class="btn btn-primary" href="https://app.velohero.com/register?lang=fr&amp;unit=0" role="button">S&#39;inscrire gratuitement</a>
-			</div>
-		</div>
-	</div>
-</div>
-<script>
-var last_position = {};
-$(document).ready(function() {
-	$(document).on('mousemove', function (event) {
-		if (typeof(last_position.x) != 'undefined') {
-			var deltaX = last_position.x - event.offsetX,
-			    deltaY = last_position.y - event.offsetY;
-			if (Math.abs(deltaY) > Math.abs(deltaX) && deltaY > 0) {
-				if(event.pageY <= 5) {
-					$('#userExitModal').modal('show');
-				}
-			}
-		}
-		last_position = {
-			x : event.offsetX,
-			y : event.offsetY
-		};
-	});
-});
-</script>
-
-</body>
+		<!-- ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ -->
+		<!-- Thank you for watching this page's source. -->
+		<!-- ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ -->
+	</body>
 </html>
